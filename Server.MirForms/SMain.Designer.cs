@@ -465,12 +465,12 @@ namespace Server
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(175, 6);
+            toolStripMenuItem1.Size = new Size(144, 6);
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(175, 6);
+            toolStripSeparator1.Size = new Size(144, 6);
             // 
             // closeServerToolStripMenuItem
             // 
@@ -489,21 +489,21 @@ namespace Server
             // nPCsToolStripMenuItem
             // 
             nPCsToolStripMenuItem.Name = "nPCsToolStripMenuItem";
-            nPCsToolStripMenuItem.Size = new Size(156, 22);
+            nPCsToolStripMenuItem.Size = new Size(124, 22);
             nPCsToolStripMenuItem.Text = "NPC";
             nPCsToolStripMenuItem.Click += nPCsToolStripMenuItem_Click;
             // 
             // dropsToolStripMenuItem
             // 
             dropsToolStripMenuItem.Name = "dropsToolStripMenuItem";
-            dropsToolStripMenuItem.Size = new Size(156, 22);
+            dropsToolStripMenuItem.Size = new Size(124, 22);
             dropsToolStripMenuItem.Text = "掉落物";
             dropsToolStripMenuItem.Click += dropsToolStripMenuItem_Click;
             // 
             // lineMessageToolStripMenuItem
             // 
             lineMessageToolStripMenuItem.Name = "lineMessageToolStripMenuItem";
-            lineMessageToolStripMenuItem.Size = new Size(156, 22);
+            lineMessageToolStripMenuItem.Size = new Size(124, 22);
             lineMessageToolStripMenuItem.Text = "公告消息";
             lineMessageToolStripMenuItem.Click += lineMessageToolStripMenuItem_Click;
             // 
@@ -583,7 +583,7 @@ namespace Server
             // nPCInfoToolStripMenuItem
             // 
             nPCInfoToolStripMenuItem.Name = "nPCInfoToolStripMenuItem";
-            nPCInfoToolStripMenuItem.Size = new Size(219, 22);
+            nPCInfoToolStripMenuItem.Size = new Size(218, 22);
             nPCInfoToolStripMenuItem.Text = "NPC";
             nPCInfoToolStripMenuItem.Click += nPCInfoToolStripMenuItem_Click;
             // 
@@ -625,14 +625,14 @@ namespace Server
             // serverToolStripMenuItem
             // 
             serverToolStripMenuItem.Name = "serverToolStripMenuItem";
-            serverToolStripMenuItem.Size = new Size(180, 22);
+            serverToolStripMenuItem.Size = new Size(136, 22);
             serverToolStripMenuItem.Text = "服务配置";
             serverToolStripMenuItem.Click += serverToolStripMenuItem_Click;
             // 
             // balanceToolStripMenuItem
             // 
             balanceToolStripMenuItem.Name = "balanceToolStripMenuItem";
-            balanceToolStripMenuItem.Size = new Size(180, 22);
+            balanceToolStripMenuItem.Size = new Size(136, 22);
             balanceToolStripMenuItem.Text = "平衡设置";
             balanceToolStripMenuItem.Click += balanceToolStripMenuItem_Click;
             // 
@@ -640,7 +640,7 @@ namespace Server
             // 
             systemToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dragonSystemToolStripMenuItem, miningToolStripMenuItem, guildsToolStripMenuItem, fishingToolStripMenuItem, mailToolStripMenuItem, goodsToolStripMenuItem, refiningToolStripMenuItem, relationshipToolStripMenuItem, mentorToolStripMenuItem, gemToolStripMenuItem, conquestToolStripMenuItem, respawnsToolStripMenuItem, heroesToolStripMenuItem });
             systemToolStripMenuItem.Name = "systemToolStripMenuItem";
-            systemToolStripMenuItem.Size = new Size(180, 22);
+            systemToolStripMenuItem.Size = new Size(136, 22);
             systemToolStripMenuItem.Text = "系统";
             // 
             // dragonSystemToolStripMenuItem
@@ -682,7 +682,7 @@ namespace Server
             // 
             goodsToolStripMenuItem.Name = "goodsToolStripMenuItem";
             goodsToolStripMenuItem.Size = new Size(180, 22);
-            goodsToolStripMenuItem.Text = "食物";
+            goodsToolStripMenuItem.Text = "商品";
             goodsToolStripMenuItem.Click += goodsToolStripMenuItem_Click;
             // 
             // refiningToolStripMenuItem
@@ -737,14 +737,14 @@ namespace Server
             // monsterTunerToolStripMenuItem
             // 
             monsterTunerToolStripMenuItem.Name = "monsterTunerToolStripMenuItem";
-            monsterTunerToolStripMenuItem.Size = new Size(180, 22);
+            monsterTunerToolStripMenuItem.Size = new Size(136, 22);
             monsterTunerToolStripMenuItem.Text = "怪物调试器";
             monsterTunerToolStripMenuItem.Click += monsterTunerToolStripMenuItem_Click;
             // 
             // dropBuilderToolStripMenuItem
             // 
             dropBuilderToolStripMenuItem.Name = "dropBuilderToolStripMenuItem";
-            dropBuilderToolStripMenuItem.Size = new Size(180, 22);
+            dropBuilderToolStripMenuItem.Size = new Size(136, 22);
             dropBuilderToolStripMenuItem.Text = "爆率设置器";
             dropBuilderToolStripMenuItem.Click += dropBuilderToolStripMenuItem_Click;
             // 
