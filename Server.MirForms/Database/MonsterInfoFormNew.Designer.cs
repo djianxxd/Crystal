@@ -1,4 +1,4 @@
-﻿
+
 namespace Server.Database
 {
     partial class MonsterInfoFormNew
@@ -252,7 +252,7 @@ namespace Server.Database
             btnExport.Name = "btnExport";
             btnExport.Size = new Size(88, 27);
             btnExport.TabIndex = 6;
-            btnExport.Text = "Export";
+            btnExport.Text = "导出";
             btnExport.UseVisualStyleBackColor = true;
             btnExport.Click += btnExport_Click;
             // 
@@ -263,7 +263,7 @@ namespace Server.Database
             btnImport.Name = "btnImport";
             btnImport.Size = new Size(88, 27);
             btnImport.TabIndex = 5;
-            btnImport.Text = "Import";
+            btnImport.Text = "导入";
             btnImport.UseVisualStyleBackColor = true;
             btnImport.Click += btnImport_Click;
             // 
@@ -279,7 +279,7 @@ namespace Server.Database
             groupView.Size = new Size(156, 48);
             groupView.TabIndex = 4;
             groupView.TabStop = false;
-            groupView.Text = "View Mode";
+            groupView.Text = "查看模式";
             // 
             // rbtnViewAll
             // 
@@ -291,7 +291,7 @@ namespace Server.Database
             rbtnViewAll.Size = new Size(39, 19);
             rbtnViewAll.TabIndex = 0;
             rbtnViewAll.TabStop = true;
-            rbtnViewAll.Text = "All";
+            rbtnViewAll.Text = "全部";
             rbtnViewAll.UseVisualStyleBackColor = true;
             rbtnViewAll.CheckedChanged += rbtnViewAll_CheckedChanged;
             // 
@@ -303,7 +303,7 @@ namespace Server.Database
             rbtnViewBasic.Name = "rbtnViewBasic";
             rbtnViewBasic.Size = new Size(52, 19);
             rbtnViewBasic.TabIndex = 1;
-            rbtnViewBasic.Text = "Basic";
+            rbtnViewBasic.Text = "基础";
             rbtnViewBasic.UseVisualStyleBackColor = true;
             rbtnViewBasic.CheckedChanged += rbtnViewBasic_CheckedChanged;
             // 

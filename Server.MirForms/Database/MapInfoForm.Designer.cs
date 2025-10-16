@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
@@ -226,7 +226,7 @@ namespace Server
             tabPage1.Padding = new Padding(4, 3, 4, 3);
             tabPage1.Size = new Size(622, 524);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Info";
+            tabPage1.Text = "信息";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // label48
@@ -236,7 +236,7 @@ namespace Server
             label48.Name = "label48";
             label48.Size = new Size(164, 15);
             label48.TabIndex = 20;
-            label48.Text = "Weather (Can Select Multiple)";
+            label48.Text = "天气（可多选）";
             // 
             // lstParticles
             // 
@@ -266,7 +266,7 @@ namespace Server
             label11.Name = "label11";
             label11.Size = new Size(42, 15);
             label11.TabIndex = 18;
-            label11.Text = "Music:";
+            label11.Text = "音乐:";
             // 
             // MusicTextBox
             // 
@@ -285,7 +285,7 @@ namespace Server
             label33.Name = "label33";
             label33.Size = new Size(65, 15);
             label33.TabIndex = 16;
-            label33.Text = "Mine Type:";
+            label33.Text = "矿类型:";
             // 
             // MineComboBox
             // 
@@ -306,7 +306,7 @@ namespace Server
             label15.Name = "label15";
             label15.Size = new Size(54, 15);
             label15.TabIndex = 14;
-            label15.Text = "Big Map:";
+            label15.Text = "大地图:";
             // 
             // BigMapTextBox
             // 
@@ -337,7 +337,7 @@ namespace Server
             label5.Name = "label5";
             label5.Size = new Size(42, 15);
             label5.TabIndex = 12;
-            label5.Text = "Lights:";
+            label5.Text = "光照:";
             // 
             // label1
             // 
@@ -347,7 +347,7 @@ namespace Server
             label1.Name = "label1";
             label1.Size = new Size(65, 15);
             label1.TabIndex = 4;
-            label1.Text = "Map Index:";
+            label1.Text = "地图索引:";
             // 
             // label4
             // 
@@ -357,7 +357,7 @@ namespace Server
             label4.Name = "label4";
             label4.Size = new Size(61, 15);
             label4.TabIndex = 10;
-            label4.Text = "Mini Map:";
+            label4.Text = "小地图:";
             // 
             // MapIndexTextBox
             // 
@@ -386,7 +386,7 @@ namespace Server
             label2.Name = "label2";
             label2.Size = new Size(63, 15);
             label2.TabIndex = 6;
-            label2.Text = "File Name:";
+            label2.Text = "文件名:";
             // 
             // MapNameTextBox
             // 
@@ -414,7 +414,7 @@ namespace Server
             label3.Name = "label3";
             label3.Size = new Size(69, 15);
             label3.TabIndex = 8;
-            label3.Text = "Map Name:";
+            label3.Text = "地图名称:";
             // 
             // tabPage6
             // 
@@ -450,7 +450,7 @@ namespace Server
             tabPage6.Padding = new Padding(4, 3, 4, 3);
             tabPage6.Size = new Size(622, 524);
             tabPage6.TabIndex = 5;
-            tabPage6.Text = "Attributes";
+            tabPage6.Text = "属性";
             tabPage6.UseVisualStyleBackColor = true;
             // 
             // GTIndexBox
@@ -469,7 +469,7 @@ namespace Server
             GTBox.Name = "GTBox";
             GTBox.Size = new Size(41, 19);
             GTBox.TabIndex = 46;
-            GTBox.Text = "GT";
+            GTBox.Text = "攻城";
             GTBox.UseVisualStyleBackColor = true;
             GTBox.CheckedChanged += GTBox_CheckedChanged;
             // 
@@ -481,7 +481,7 @@ namespace Server
             NoReincarnation.Name = "NoReincarnation";
             NoReincarnation.Size = new Size(118, 19);
             NoReincarnation.TabIndex = 45;
-            NoReincarnation.Text = "No Reincarnation";
+            NoReincarnation.Text = "禁止转世";
             NoReincarnation.UseVisualStyleBackColor = true;
             NoReincarnation.CheckedChanged += NoReincarnation_CheckedChanged;
             // 
@@ -493,7 +493,7 @@ namespace Server
             NoTownTeleportCheckbox.Name = "NoTownTeleportCheckbox";
             NoTownTeleportCheckbox.Size = new Size(117, 19);
             NoTownTeleportCheckbox.TabIndex = 44;
-            NoTownTeleportCheckbox.Text = "No TownTeleport";
+            NoTownTeleportCheckbox.Text = "禁止回城";
             NoTownTeleportCheckbox.UseVisualStyleBackColor = true;
             NoTownTeleportCheckbox.CheckedChanged += NoTownTeleportCheckbox_CheckedChanged;
             // 
@@ -505,7 +505,7 @@ namespace Server
             NoFightCheckbox.Name = "NoFightCheckbox";
             NoFightCheckbox.Size = new Size(72, 19);
             NoFightCheckbox.TabIndex = 43;
-            NoFightCheckbox.Text = "No Fight";
+            NoFightCheckbox.Text = "禁止战斗";
             NoFightCheckbox.UseVisualStyleBackColor = true;
             NoFightCheckbox.CheckedChanged += NoFightCheckbox_CheckedChanged;
             // 
@@ -517,7 +517,7 @@ namespace Server
             NeedBridleCheckbox.Name = "NeedBridleCheckbox";
             NeedBridleCheckbox.Size = new Size(87, 19);
             NeedBridleCheckbox.TabIndex = 42;
-            NeedBridleCheckbox.Text = "Need Bridle";
+            NeedBridleCheckbox.Text = "需要缰绳";
             NeedBridleCheckbox.UseVisualStyleBackColor = true;
             NeedBridleCheckbox.CheckedChanged += NeedBridleCheckbox_CheckedChanged;
             // 
@@ -529,7 +529,7 @@ namespace Server
             NoMountCheckbox.Name = "NoMountCheckbox";
             NoMountCheckbox.Size = new Size(81, 19);
             NoMountCheckbox.TabIndex = 41;
-            NoMountCheckbox.Text = "No Mount";
+            NoMountCheckbox.Text = "禁止骑马";
             NoMountCheckbox.UseVisualStyleBackColor = true;
             NoMountCheckbox.CheckedChanged += NoMountCheckbox_CheckedChanged;
             // 
@@ -541,7 +541,7 @@ namespace Server
             label19.Name = "label19";
             label19.Size = new Size(88, 15);
             label19.TabIndex = 40;
-            label19.Text = "Map Dark Light";
+            label19.Text = "地图暗亮度";
             // 
             // MapDarkLighttextBox
             // 
@@ -560,7 +560,7 @@ namespace Server
             NoNamesCheckbox.Name = "NoNamesCheckbox";
             NoNamesCheckbox.Size = new Size(82, 19);
             NoNamesCheckbox.TabIndex = 38;
-            NoNamesCheckbox.Text = "No Names";
+            NoNamesCheckbox.Text = "隐藏名称";
             NoNamesCheckbox.UseVisualStyleBackColor = true;
             NoNamesCheckbox.CheckedChanged += NoNamesCheckbox_CheckedChanged;
             // 
@@ -572,7 +572,7 @@ namespace Server
             NoDropMonsterCheckbox.Name = "NoDropMonsterCheckbox";
             NoDropMonsterCheckbox.Size = new Size(126, 19);
             NoDropMonsterCheckbox.TabIndex = 37;
-            NoDropMonsterCheckbox.Text = "No Drop (Monster)";
+            NoDropMonsterCheckbox.Text = "禁止掉落(怪物)";
             NoDropMonsterCheckbox.UseVisualStyleBackColor = true;
             NoDropMonsterCheckbox.CheckedChanged += NoDropMonsterCheckbox_CheckedChanged;
             // 
@@ -584,7 +584,7 @@ namespace Server
             NoDropPlayerCheckbox.Name = "NoDropPlayerCheckbox";
             NoDropPlayerCheckbox.Size = new Size(114, 19);
             NoDropPlayerCheckbox.TabIndex = 36;
-            NoDropPlayerCheckbox.Text = "No Drop (Player)";
+            NoDropPlayerCheckbox.Text = "禁止掉落(玩家)";
             NoDropPlayerCheckbox.UseVisualStyleBackColor = true;
             NoDropPlayerCheckbox.CheckedChanged += NoDropPlayerCheckbox_CheckedChanged;
             // 
@@ -596,7 +596,7 @@ namespace Server
             NoThrowItemCheckbox.Name = "NoThrowItemCheckbox";
             NoThrowItemCheckbox.Size = new Size(106, 19);
             NoThrowItemCheckbox.TabIndex = 35;
-            NoThrowItemCheckbox.Text = "No Throw Item";
+            NoThrowItemCheckbox.Text = "禁止扔物品";
             NoThrowItemCheckbox.UseVisualStyleBackColor = true;
             NoThrowItemCheckbox.CheckedChanged += NoThrowItemCheckbox_CheckedChanged;
             // 
@@ -608,7 +608,7 @@ namespace Server
             NoPositionCheckbox.Name = "NoPositionCheckbox";
             NoPositionCheckbox.Size = new Size(88, 19);
             NoPositionCheckbox.TabIndex = 34;
-            NoPositionCheckbox.Text = "No Position";
+            NoPositionCheckbox.Text = "隐藏坐标";
             NoPositionCheckbox.UseVisualStyleBackColor = true;
             NoPositionCheckbox.CheckedChanged += NoPositionCheckbox_CheckedChanged;
             // 
@@ -620,7 +620,7 @@ namespace Server
             NoDrugCheckbox.Name = "NoDrugCheckbox";
             NoDrugCheckbox.Size = new Size(71, 19);
             NoDrugCheckbox.TabIndex = 33;
-            NoDrugCheckbox.Text = "No Drug";
+            NoDrugCheckbox.Text = "禁止用药";
             NoDrugCheckbox.UseVisualStyleBackColor = true;
             NoDrugCheckbox.CheckedChanged += NoDrugCheckbox_CheckedChanged;
             // 
@@ -632,7 +632,7 @@ namespace Server
             NoRecallCheckbox.Name = "NoRecallCheckbox";
             NoRecallCheckbox.Size = new Size(76, 19);
             NoRecallCheckbox.TabIndex = 32;
-            NoRecallCheckbox.Text = "No Recall";
+            NoRecallCheckbox.Text = "禁止召唤";
             NoRecallCheckbox.UseVisualStyleBackColor = true;
             NoRecallCheckbox.CheckedChanged += NoRecallCheckbox_CheckedChanged;
             // 
@@ -644,7 +644,7 @@ namespace Server
             NoEscapeCheckbox.Name = "NoEscapeCheckbox";
             NoEscapeCheckbox.Size = new Size(81, 19);
             NoEscapeCheckbox.TabIndex = 31;
-            NoEscapeCheckbox.Text = "No Escape";
+            NoEscapeCheckbox.Text = "禁止逃离";
             NoEscapeCheckbox.UseVisualStyleBackColor = true;
             NoEscapeCheckbox.CheckedChanged += NoEscapeCheckbox_CheckedChanged;
             // 
@@ -656,7 +656,7 @@ namespace Server
             NoRandomCheckbox.Name = "NoRandomCheckbox";
             NoRandomCheckbox.Size = new Size(90, 19);
             NoRandomCheckbox.TabIndex = 30;
-            NoRandomCheckbox.Text = "No Random";
+            NoRandomCheckbox.Text = "禁止随机";
             NoRandomCheckbox.UseVisualStyleBackColor = true;
             NoRandomCheckbox.CheckedChanged += NoRandomCheckbox_CheckedChanged;
             // 
@@ -695,7 +695,7 @@ namespace Server
             LightningCheckbox.Name = "LightningCheckbox";
             LightningCheckbox.Size = new Size(77, 19);
             LightningCheckbox.TabIndex = 26;
-            LightningCheckbox.Text = "Lightning";
+            LightningCheckbox.Text = "闪电";
             LightningCheckbox.UseVisualStyleBackColor = true;
             LightningCheckbox.CheckedChanged += LightningCheckbox_CheckedChanged;
             // 
@@ -707,7 +707,7 @@ namespace Server
             FireCheckbox.Name = "FireCheckbox";
             FireCheckbox.Size = new Size(45, 19);
             FireCheckbox.TabIndex = 25;
-            FireCheckbox.Text = "Fire";
+            FireCheckbox.Text = "火焰";
             FireCheckbox.UseVisualStyleBackColor = true;
             FireCheckbox.CheckStateChanged += FireCheckbox_CheckStateChanged;
             // 
@@ -719,7 +719,7 @@ namespace Server
             FightCheckbox.Name = "FightCheckbox";
             FightCheckbox.Size = new Size(53, 19);
             FightCheckbox.TabIndex = 23;
-            FightCheckbox.Text = "Fight";
+            FightCheckbox.Text = "战斗";
             FightCheckbox.UseVisualStyleBackColor = true;
             FightCheckbox.CheckedChanged += FightCheckbox_CheckedChanged;
             // 
@@ -731,7 +731,7 @@ namespace Server
             NoReconnectCheckbox.Name = "NoReconnectCheckbox";
             NoReconnectCheckbox.Size = new Size(101, 19);
             NoReconnectCheckbox.TabIndex = 22;
-            NoReconnectCheckbox.Text = "No Reconnect";
+            NoReconnectCheckbox.Text = "禁止重连";
             NoReconnectCheckbox.UseVisualStyleBackColor = true;
             NoReconnectCheckbox.CheckedChanged += NoReconnectCheckbox_CheckedChanged;
             // 
@@ -743,7 +743,7 @@ namespace Server
             NoTeleportCheckbox.Name = "NoTeleportCheckbox";
             NoTeleportCheckbox.Size = new Size(88, 19);
             NoTeleportCheckbox.TabIndex = 21;
-            NoTeleportCheckbox.Text = "No Teleport";
+            NoTeleportCheckbox.Text = "禁止传送";
             NoTeleportCheckbox.UseVisualStyleBackColor = true;
             NoTeleportCheckbox.CheckedChanged += NoTeleportCheckbox_CheckedChanged;
             // 
@@ -758,7 +758,7 @@ namespace Server
             tabPage3.Name = "tabPage3";
             tabPage3.Size = new Size(622, 524);
             tabPage3.TabIndex = 2;
-            tabPage3.Text = "Safe Zones";
+            tabPage3.Text = "安全区域";
             tabPage3.UseVisualStyleBackColor = true;
             // 
             // RemoveSZButton
@@ -768,7 +768,7 @@ namespace Server
             RemoveSZButton.Name = "RemoveSZButton";
             RemoveSZButton.Size = new Size(88, 27);
             RemoveSZButton.TabIndex = 8;
-            RemoveSZButton.Text = "Remove";
+            RemoveSZButton.Text = "移除";
             RemoveSZButton.UseVisualStyleBackColor = true;
             RemoveSZButton.Click += RemoveSZButton_Click;
             // 
@@ -779,7 +779,7 @@ namespace Server
             AddSZButton.Name = "AddSZButton";
             AddSZButton.Size = new Size(88, 27);
             AddSZButton.TabIndex = 7;
-            AddSZButton.Text = "Add";
+            AddSZButton.Text = "添加";
             AddSZButton.UseVisualStyleBackColor = true;
             AddSZButton.Click += AddSZButton_Click;
             // 
@@ -828,7 +828,7 @@ namespace Server
             label14.Name = "label14";
             label14.Size = new Size(30, 15);
             label14.TabIndex = 8;
-            label14.Text = "Size:";
+            label14.Text = "大小:";
             // 
             // SizeTextBox
             // 
@@ -868,7 +868,7 @@ namespace Server
             StartPointCheckBox.Name = "StartPointCheckBox";
             StartPointCheckBox.Size = new Size(81, 19);
             StartPointCheckBox.TabIndex = 5;
-            StartPointCheckBox.Text = "Start Point";
+            StartPointCheckBox.Text = "起点";
             StartPointCheckBox.UseVisualStyleBackColor = true;
             StartPointCheckBox.CheckedChanged += StartPointCheckBox_CheckedChanged;
             // 
@@ -899,7 +899,7 @@ namespace Server
             tabPage2.Padding = new Padding(4, 3, 4, 3);
             tabPage2.Size = new Size(622, 524);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "Respawns";
+            tabPage2.Text = "怪物重生点";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // RPasteButton
@@ -909,7 +909,7 @@ namespace Server
             RPasteButton.Name = "RPasteButton";
             RPasteButton.Size = new Size(88, 27);
             RPasteButton.TabIndex = 22;
-            RPasteButton.Text = "Paste";
+            RPasteButton.Text = "粘贴";
             RPasteButton.UseVisualStyleBackColor = true;
             RPasteButton.Click += RPasteButton_Click;
             // 
@@ -920,7 +920,7 @@ namespace Server
             RCopyButton.Name = "RCopyButton";
             RCopyButton.Size = new Size(88, 27);
             RCopyButton.TabIndex = 21;
-            RCopyButton.Text = "Copy";
+            RCopyButton.Text = "复制";
             RCopyButton.UseVisualStyleBackColor = true;
             // 
             // RemoveRButton
@@ -930,7 +930,7 @@ namespace Server
             RemoveRButton.Name = "RemoveRButton";
             RemoveRButton.Size = new Size(88, 27);
             RemoveRButton.TabIndex = 16;
-            RemoveRButton.Text = "Remove";
+            RemoveRButton.Text = "移除";
             RemoveRButton.UseVisualStyleBackColor = true;
             RemoveRButton.Click += RemoveRButton_Click;
             // 
@@ -941,7 +941,7 @@ namespace Server
             AddRButton.Name = "AddRButton";
             AddRButton.Size = new Size(88, 27);
             AddRButton.TabIndex = 15;
-            AddRButton.Text = "Add";
+            AddRButton.Text = "添加";
             AddRButton.UseVisualStyleBackColor = true;
             AddRButton.Click += AddRButton_Click;
             // 
@@ -996,7 +996,7 @@ namespace Server
             chkrespawnsave.Name = "chkrespawnsave";
             chkrespawnsave.Size = new Size(176, 19);
             chkrespawnsave.TabIndex = 25;
-            chkrespawnsave.Text = "Save respawnticks on reboot";
+            chkrespawnsave.Text = "重启时保存重生计时器";
             chkrespawnsave.UseVisualStyleBackColor = true;
             chkrespawnsave.CheckedChanged += chkrespawnsave_CheckedChanged;
             // 
@@ -1008,7 +1008,7 @@ namespace Server
             chkRespawnEnableTick.Name = "chkRespawnEnableTick";
             chkRespawnEnableTick.Size = new Size(145, 19);
             chkRespawnEnableTick.TabIndex = 24;
-            chkRespawnEnableTick.Text = "Use tickbased respawn";
+            chkRespawnEnableTick.Text = "使用基于tick的重生";
             chkRespawnEnableTick.UseVisualStyleBackColor = true;
             chkRespawnEnableTick.CheckedChanged += chkRespawnEnableTick_CheckedChanged;
             // 
@@ -1021,7 +1021,7 @@ namespace Server
             Randomtextbox.Name = "Randomtextbox";
             Randomtextbox.Size = new Size(42, 22);
             Randomtextbox.TabIndex = 23;
-            toolTip1.SetToolTip(Randomtextbox, "Allows random + or - added to each spawn time");
+            toolTip1.SetToolTip(Randomtextbox, "允许在每次重生时间添加随机+或-");
             Randomtextbox.TextChanged += RandomTextBox_TextChanged;
             // 
             // label23
@@ -1042,7 +1042,7 @@ namespace Server
             label34.Name = "label34";
             label34.Size = new Size(41, 15);
             label34.TabIndex = 21;
-            label34.Text = "Route:";
+            label34.Text = "路径:";
             // 
             // RoutePathTextBox
             // 
@@ -1061,7 +1061,7 @@ namespace Server
             label24.Name = "label24";
             label24.Size = new Size(25, 15);
             label24.TabIndex = 18;
-            label24.Text = "Dir:";
+            label24.Text = "方向:";
             // 
             // DirectionTextBox
             // 
@@ -1081,7 +1081,7 @@ namespace Server
             label8.Name = "label8";
             label8.Size = new Size(39, 15);
             label8.TabIndex = 16;
-            label8.Text = "Delay:";
+            label8.Text = "延迟:";
             // 
             // DelayTextBox
             // 
@@ -1092,7 +1092,7 @@ namespace Server
             DelayTextBox.Name = "DelayTextBox";
             DelayTextBox.Size = new Size(72, 22);
             DelayTextBox.TabIndex = 15;
-            toolTip1.SetToolTip(DelayTextBox, "if you use tick based spawn: this is ignored!");
+            toolTip1.SetToolTip(DelayTextBox, "如果使用基于tick的重生：此设置将被忽略！");
             DelayTextBox.TextChanged += DelayTextBox_TextChanged;
             // 
             // label7
@@ -1103,7 +1103,7 @@ namespace Server
             label7.Name = "label7";
             label7.Size = new Size(54, 15);
             label7.TabIndex = 14;
-            label7.Text = "Monster:";
+            label7.Text = "怪物:";
             // 
             // MonsterInfoComboBox
             // 
@@ -1124,7 +1124,7 @@ namespace Server
             label6.Name = "label6";
             label6.Size = new Size(46, 15);
             label6.TabIndex = 12;
-            label6.Text = "Spread:";
+            label6.Text = "扩散:";
             // 
             // SpreadTextBox
             // 
@@ -1164,7 +1164,7 @@ namespace Server
             label10.Name = "label10";
             label10.Size = new Size(43, 15);
             label10.TabIndex = 8;
-            label10.Text = "Count:";
+            label10.Text = "数量:";
             // 
             // CountTextBox
             // 
@@ -1208,7 +1208,7 @@ namespace Server
             tabPage4.Padding = new Padding(4, 3, 4, 3);
             tabPage4.Size = new Size(622, 524);
             tabPage4.TabIndex = 3;
-            tabPage4.Text = "Movements";
+            tabPage4.Text = "移动路径";
             tabPage4.UseVisualStyleBackColor = true;
             // 
             // RemoveMButton
@@ -1218,7 +1218,7 @@ namespace Server
             RemoveMButton.Name = "RemoveMButton";
             RemoveMButton.Size = new Size(88, 27);
             RemoveMButton.TabIndex = 12;
-            RemoveMButton.Text = "Remove";
+            RemoveMButton.Text = "移除";
             RemoveMButton.UseVisualStyleBackColor = true;
             RemoveMButton.Click += RemoveMButton_Click;
             // 
@@ -1229,7 +1229,7 @@ namespace Server
             AddMButton.Name = "AddMButton";
             AddMButton.Size = new Size(88, 27);
             AddMButton.TabIndex = 11;
-            AddMButton.Text = "Add";
+            AddMButton.Text = "添加";
             AddMButton.UseVisualStyleBackColor = true;
             AddMButton.Click += AddMButton_Click;
             // 
@@ -1268,7 +1268,7 @@ namespace Server
             label26.Name = "label26";
             label26.Size = new Size(33, 15);
             label26.TabIndex = 23;
-            label26.Text = "Icon:";
+            label26.Text = "图标:";
             // 
             // BigMapIconTextBox
             // 
@@ -1288,7 +1288,7 @@ namespace Server
             ShowBigMapCheckBox.Name = "ShowBigMapCheckBox";
             ShowBigMapCheckBox.Size = new Size(116, 19);
             ShowBigMapCheckBox.TabIndex = 21;
-            ShowBigMapCheckBox.Text = "Show on BigMap";
+            ShowBigMapCheckBox.Text = "显示在大地图";
             ShowBigMapCheckBox.UseVisualStyleBackColor = true;
             ShowBigMapCheckBox.CheckedChanged += ShowBigMapCheckBox_CheckedChanged;
             // 
@@ -1300,7 +1300,7 @@ namespace Server
             label25.Name = "label25";
             label25.Size = new Size(61, 15);
             label25.TabIndex = 20;
-            label25.Text = "Conquest:";
+            label25.Text = "征服:";
             // 
             // ConquestComboBox
             // 
@@ -1321,7 +1321,7 @@ namespace Server
             NeedMoveMCheckBox.Name = "NeedMoveMCheckBox";
             NeedMoveMCheckBox.Size = new Size(87, 19);
             NeedMoveMCheckBox.TabIndex = 18;
-            NeedMoveMCheckBox.Text = "Need Move";
+            NeedMoveMCheckBox.Text = "需要移动";
             NeedMoveMCheckBox.UseVisualStyleBackColor = true;
             NeedMoveMCheckBox.CheckedChanged += NeedScriptMCheckBox_CheckedChanged;
             // 
@@ -1333,7 +1333,7 @@ namespace Server
             NeedHoleMCheckBox.Name = "NeedHoleMCheckBox";
             NeedHoleMCheckBox.Size = new Size(82, 19);
             NeedHoleMCheckBox.TabIndex = 17;
-            NeedHoleMCheckBox.Text = "Need Hole";
+            NeedHoleMCheckBox.Text = "需要洞穴";
             NeedHoleMCheckBox.UseVisualStyleBackColor = true;
             NeedHoleMCheckBox.CheckedChanged += NeedHoleMCheckBox_CheckedChanged;
             // 
@@ -1345,7 +1345,7 @@ namespace Server
             label22.Name = "label22";
             label22.Size = new Size(50, 15);
             label22.TabIndex = 16;
-            label22.Text = "To Map:";
+            label22.Text = "目标地图:";
             // 
             // DestMapComboBox
             // 
@@ -1366,7 +1366,7 @@ namespace Server
             label18.Name = "label18";
             label18.Size = new Size(33, 15);
             label18.TabIndex = 14;
-            label18.Text = "To Y:";
+            label18.Text = "目标Y:";
             // 
             // DestYTextBox
             // 
@@ -1386,7 +1386,7 @@ namespace Server
             label21.Name = "label21";
             label21.Size = new Size(33, 15);
             label21.TabIndex = 13;
-            label21.Text = "To X:";
+            label21.Text = "目标X:";
             // 
             // DestXTextBox
             // 
@@ -1406,7 +1406,7 @@ namespace Server
             label16.Name = "label16";
             label16.Size = new Size(48, 15);
             label16.TabIndex = 10;
-            label16.Text = "From Y:";
+            label16.Text = "起始Y:";
             // 
             // SourceYTextBox
             // 
@@ -1426,7 +1426,7 @@ namespace Server
             label20.Name = "label20";
             label20.Size = new Size(48, 15);
             label20.TabIndex = 3;
-            label20.Text = "From X:";
+            label20.Text = "起始X:";
             // 
             // SourceXTextBox
             // 
@@ -1463,7 +1463,7 @@ namespace Server
             tabPage7.Padding = new Padding(4, 3, 4, 3);
             tabPage7.Size = new Size(622, 524);
             tabPage7.TabIndex = 6;
-            tabPage7.Text = "MineZones";
+            tabPage7.Text = "挖矿区域";
             tabPage7.UseVisualStyleBackColor = true;
             // 
             // MZDeletebutton
@@ -1473,7 +1473,7 @@ namespace Server
             MZDeletebutton.Name = "MZDeletebutton";
             MZDeletebutton.Size = new Size(88, 27);
             MZDeletebutton.TabIndex = 12;
-            MZDeletebutton.Text = "Remove";
+            MZDeletebutton.Text = "移除";
             MZDeletebutton.UseVisualStyleBackColor = true;
             MZDeletebutton.Click += MZDeletebutton_Click;
             // 
@@ -1484,7 +1484,7 @@ namespace Server
             MZAddbutton.Name = "MZAddbutton";
             MZAddbutton.Size = new Size(88, 27);
             MZAddbutton.TabIndex = 11;
-            MZAddbutton.Text = "Add";
+            MZAddbutton.Text = "添加";
             MZAddbutton.UseVisualStyleBackColor = true;
             MZAddbutton.Click += MZAddbutton_Click;
             // 
@@ -1555,7 +1555,7 @@ namespace Server
             label31.Name = "label31";
             label31.Size = new Size(30, 15);
             label31.TabIndex = 8;
-            label31.Text = "Size:";
+            label31.Text = "大小:";
             // 
             // MZSizetextBox
             // 
@@ -1607,7 +1607,7 @@ namespace Server
             RemoveButton.Name = "RemoveButton";
             RemoveButton.Size = new Size(88, 27);
             RemoveButton.TabIndex = 6;
-            RemoveButton.Text = "Remove";
+            RemoveButton.Text = "移除";
             RemoveButton.UseVisualStyleBackColor = true;
             RemoveButton.Click += RemoveButton_Click;
             // 
@@ -1618,7 +1618,7 @@ namespace Server
             AddButton.Name = "AddButton";
             AddButton.Size = new Size(88, 27);
             AddButton.TabIndex = 5;
-            AddButton.Text = "Add";
+            AddButton.Text = "添加";
             AddButton.UseVisualStyleBackColor = true;
             AddButton.Click += AddButton_Click;
             // 
@@ -1642,7 +1642,7 @@ namespace Server
             PasteMapButton.Name = "PasteMapButton";
             PasteMapButton.Size = new Size(88, 27);
             PasteMapButton.TabIndex = 24;
-            PasteMapButton.Text = "Paste";
+            PasteMapButton.Text = "粘贴";
             PasteMapButton.UseVisualStyleBackColor = true;
             PasteMapButton.Click += PasteMapButton_Click;
             // 
@@ -1653,7 +1653,7 @@ namespace Server
             CopyMapButton.Name = "CopyMapButton";
             CopyMapButton.Size = new Size(88, 27);
             CopyMapButton.TabIndex = 23;
-            CopyMapButton.Text = "Copy";
+            CopyMapButton.Text = "复制";
             CopyMapButton.UseVisualStyleBackColor = true;
             // 
             // ImportMapInfoButton
@@ -1663,7 +1663,7 @@ namespace Server
             ImportMapInfoButton.Name = "ImportMapInfoButton";
             ImportMapInfoButton.Size = new Size(102, 27);
             ImportMapInfoButton.TabIndex = 25;
-            ImportMapInfoButton.Text = "Import MapInfo";
+            ImportMapInfoButton.Text = "导入地图信息";
             ImportMapInfoButton.UseVisualStyleBackColor = true;
             ImportMapInfoButton.Click += ImportMapInfoButton_Click;
             // 
@@ -1674,7 +1674,7 @@ namespace Server
             ExportMapInfoButton.Name = "ExportMapInfoButton";
             ExportMapInfoButton.Size = new Size(102, 27);
             ExportMapInfoButton.TabIndex = 26;
-            ExportMapInfoButton.Text = "Export MapInfo";
+            ExportMapInfoButton.Text = "导出地图信息";
             ExportMapInfoButton.UseVisualStyleBackColor = true;
             ExportMapInfoButton.Click += ExportMapInfoButton_Click;
             // 
@@ -1685,7 +1685,7 @@ namespace Server
             ImportMongenButton.Name = "ImportMongenButton";
             ImportMongenButton.Size = new Size(100, 27);
             ImportMongenButton.TabIndex = 27;
-            ImportMongenButton.Text = "Import Spawns";
+            ImportMongenButton.Text = "导入怪物重生点";
             ImportMongenButton.UseVisualStyleBackColor = true;
             ImportMongenButton.Click += ImportMonGenButton_Click;
             // 
@@ -1696,7 +1696,7 @@ namespace Server
             ExportMongenButton.Name = "ExportMongenButton";
             ExportMongenButton.Size = new Size(100, 27);
             ExportMongenButton.TabIndex = 28;
-            ExportMongenButton.Text = "Export Spawns";
+            ExportMongenButton.Text = "导出怪物重生点";
             ExportMongenButton.UseVisualStyleBackColor = true;
             ExportMongenButton.Click += ExportMonGenButton_Click;
             // 
@@ -1707,7 +1707,7 @@ namespace Server
             VisualizerButton.Name = "VisualizerButton";
             VisualizerButton.Size = new Size(88, 27);
             VisualizerButton.TabIndex = 31;
-            VisualizerButton.Text = "Visualizer";
+            VisualizerButton.Text = "可视化工具";
             VisualizerButton.UseVisualStyleBackColor = true;
             VisualizerButton.Click += VisualizerButton_Click;
             // 
@@ -1717,7 +1717,7 @@ namespace Server
             MapSearchButton.Name = "MapSearchButton";
             MapSearchButton.Size = new Size(75, 23);
             MapSearchButton.TabIndex = 33;
-            MapSearchButton.Text = "Search";
+            MapSearchButton.Text = "搜索";
             MapSearchButton.UseVisualStyleBackColor = true;
             MapSearchButton.Click += MapSearchButton_Click;
             // 
@@ -1725,7 +1725,7 @@ namespace Server
             // 
             MapSearchTextBox.Location = new Point(14, 41);
             MapSearchTextBox.Name = "MapSearchTextBox";
-            MapSearchTextBox.PlaceholderText = "Search...";
+            MapSearchTextBox.PlaceholderText = "搜索...";
             MapSearchTextBox.Size = new Size(220, 23);
             MapSearchTextBox.TabIndex = 35;
             // 
@@ -1749,7 +1749,7 @@ namespace Server
             Controls.Add(MapInfoListBox);
             Margin = new Padding(4, 3, 4, 3);
             Name = "MapInfoForm";
-            Text = "Map Info";
+            Text = "地图信息";
             FormClosed += MapInfoForm_FormClosed;
             MapTabs.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
