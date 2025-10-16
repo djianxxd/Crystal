@@ -199,5 +199,10 @@ namespace Server
 
             Envir.DragonInfo.Exps[Convert.ToInt32(ActiveControl.Tag)] = temp;
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

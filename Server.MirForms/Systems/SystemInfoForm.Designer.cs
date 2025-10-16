@@ -180,7 +180,7 @@
             tabPage1.Padding = new Padding(4, 3, 4, 3);
             tabPage1.Size = new Size(513, 303);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "钓鱼";
+            tabPage1.Text = "钓鱼系统";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -237,7 +237,7 @@
             label4.Name = "label4";
             label4.Size = new Size(126, 17);
             label4.TabIndex = 7;
-            label4.Text = "生物生成概率（%） : ";
+            label4.Text = "生物生成概率(%)：";
             // 
             // label5
             // 
@@ -247,7 +247,7 @@
             label5.Name = "label5";
             label5.Size = new Size(80, 17);
             label5.TabIndex = 9;
-            label5.Text = "成功率乘数：";
+            label5.Text = "成功率系数：";
             // 
             // FishingSuccessRateMultiplierTextBox
             // 
@@ -266,7 +266,7 @@
             label3.Name = "label3";
             label3.Size = new Size(73, 17);
             label3.TabIndex = 6;
-            label3.Text = "延迟/毫秒：";
+            label3.Text = "响应延迟(毫秒)：";
             // 
             // label2
             // 
@@ -276,7 +276,7 @@
             label2.Name = "label2";
             label2.Size = new Size(116, 17);
             label2.TabIndex = 5;
-            label2.Text = "成功率起始百分比：";
+            label2.Text = "初始成功率百分比：";
             // 
             // label1
             // 
@@ -286,7 +286,7 @@
             label1.Name = "label1";
             label1.Size = new Size(97, 17);
             label1.TabIndex = 4;
-            label1.Text = "尝试次数/回合：";
+            label1.Text = "尝试次数/回合数：";
             // 
             // FishingDelayTextBox
             // 
@@ -347,7 +347,7 @@
             tabPage2.Padding = new Padding(4, 3, 4, 3);
             tabPage2.Size = new Size(513, 303);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "邮件";
+            tabPage2.Text = "邮件系统";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // label8
@@ -451,7 +451,7 @@
             tabPage3.Name = "tabPage3";
             tabPage3.Size = new Size(513, 303);
             tabPage3.TabIndex = 2;
-            tabPage3.Text = "商品";
+            tabPage3.Text = "商品回购系统";
             tabPage3.UseVisualStyleBackColor = true;
             // 
             // GoodsBuyBackMaxStoredTextBox
@@ -471,7 +471,7 @@
             label11.Name = "label11";
             label11.Size = new Size(92, 17);
             label11.TabIndex = 5;
-            label11.Text = "最大回购存储量";
+            label11.Text = "最大回购存储数量：";
             // 
             // GoodsBuyBackTimeTextBox
             // 
@@ -509,7 +509,7 @@
             label9.Name = "label9";
             label9.Size = new Size(92, 17);
             label9.TabIndex = 1;
-            label9.Text = "最大存储货物量";
+            label9.Text = "最大货物存储数量：";
             // 
             // GoodsOnCheckBox
             // 
@@ -549,12 +549,12 @@
             tabPage4.Name = "tabPage4";
             tabPage4.Size = new Size(513, 303);
             tabPage4.TabIndex = 3;
-            tabPage4.Text = "精炼";
+            tabPage4.Text = "精炼系统";
             tabPage4.UseVisualStyleBackColor = true;
             // 
             // OreName_textbox
             // 
-            OreName_textbox.Location = new Point(258, 99);
+            OreName_textbox.Location = new Point(334, 102);
             OreName_textbox.Margin = new Padding(4, 3, 4, 3);
             OreName_textbox.Name = "OreName_textbox";
             OreName_textbox.Size = new Size(151, 23);
@@ -564,12 +564,12 @@
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(254, 77);
+            label23.Location = new Point(270, 105);
             label23.Margin = new Padding(4, 0, 4, 0);
             label23.Name = "label23";
-            label23.Size = new Size(69, 17);
+            label23.Size = new Size(56, 17);
             label23.TabIndex = 19;
-            label23.Text = "Ore Name";
+            label23.Text = "矿石名称";
             // 
             // RefineCost_textbox
             // 
@@ -583,12 +583,12 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(254, 45);
+            label22.Location = new Point(270, 45);
             label22.Margin = new Padding(4, 0, 4, 0);
             label22.Name = "label22";
-            label22.Size = new Size(74, 17);
+            label22.Size = new Size(56, 17);
             label22.TabIndex = 17;
-            label22.Text = "Refine Cost";
+            label22.Text = "精炼成本";
             // 
             // ItemDimReturn_textbox
             // 
@@ -602,12 +602,12 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(27, 245);
+            label21.Location = new Point(92, 240);
             label21.Margin = new Padding(4, 0, 4, 0);
             label21.Name = "label21";
-            label21.Size = new Size(153, 17);
+            label21.Size = new Size(80, 17);
             label21.TabIndex = 15;
-            label21.Text = "Item Diminishing Returns";
+            label21.Text = "装备收益递减";
             // 
             // WepDimReturn_textbox
             // 
@@ -621,12 +621,12 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(4, 211);
+            label20.Location = new Point(92, 206);
             label20.Margin = new Padding(4, 0, 4, 0);
             label20.Name = "label20";
-            label20.Size = new Size(176, 17);
+            label20.Size = new Size(80, 17);
             label20.TabIndex = 13;
-            label20.Text = "Weapon Diminishing Returns";
+            label20.Text = "武器收益递减";
             // 
             // CritMultiplier_textbox
             // 
@@ -640,12 +640,12 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(44, 177);
+            label19.Location = new Point(92, 172);
             label19.Margin = new Padding(4, 0, 4, 0);
             label19.Name = "label19";
-            label19.Size = new Size(140, 17);
+            label19.Size = new Size(80, 17);
             label19.TabIndex = 11;
-            label19.Text = "Crit Increase Multiplier";
+            label19.Text = "暴击增加倍数";
             // 
             // CritChance_textbox
             // 
@@ -659,12 +659,12 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(62, 143);
+            label18.Location = new Point(93, 138);
             label18.Margin = new Padding(4, 0, 4, 0);
             label18.Name = "label18";
-            label18.Size = new Size(116, 17);
+            label18.Size = new Size(79, 17);
             label18.TabIndex = 9;
-            label18.Text = "Critical Chance (%)";
+            label18.Text = "暴击几率(%)：";
             // 
             // NormalStat_textbox
             // 
@@ -678,12 +678,12 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(47, 110);
+            label17.Location = new Point(92, 105);
             label17.Margin = new Padding(4, 0, 4, 0);
             label17.Name = "label17";
-            label17.Size = new Size(131, 17);
+            label17.Size = new Size(80, 17);
             label17.TabIndex = 7;
-            label17.Text = "Normal Stat Increase";
+            label17.Text = "普通属性增加";
             // 
             // RefineTime_textbox
             // 
@@ -697,12 +697,12 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(44, 77);
+            label16.Location = new Point(80, 72);
             label16.Margin = new Padding(4, 0, 4, 0);
             label16.Name = "label16";
-            label16.Size = new Size(134, 17);
+            label16.Size = new Size(92, 17);
             label16.TabIndex = 5;
-            label16.Text = "Refine Time (Minutes)";
+            label16.Text = "精炼时间 (分钟)";
             // 
             // BaseChance_textbox
             // 
@@ -716,23 +716,23 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(19, 45);
+            label15.Location = new Point(81, 40);
             label15.Margin = new Padding(4, 0, 4, 0);
             label15.Name = "label15";
-            label15.Size = new Size(154, 17);
+            label15.Size = new Size(91, 17);
             label15.TabIndex = 3;
-            label15.Text = "Base Success Chance (%)";
+            label15.Text = "基础成功率(%)：";
             // 
             // WeaponOnly_checkbox
             // 
             WeaponOnly_checkbox.AutoSize = true;
-            WeaponOnly_checkbox.Location = new Point(40, 11);
+            WeaponOnly_checkbox.Location = new Point(85, 6);
             WeaponOnly_checkbox.Margin = new Padding(4, 3, 4, 3);
             WeaponOnly_checkbox.Name = "WeaponOnly_checkbox";
             WeaponOnly_checkbox.RightToLeft = RightToLeft.Yes;
-            WeaponOnly_checkbox.Size = new Size(157, 21);
+            WeaponOnly_checkbox.Size = new Size(87, 21);
             WeaponOnly_checkbox.TabIndex = 2;
-            WeaponOnly_checkbox.Text = "Only Weapon Refining";
+            WeaponOnly_checkbox.Text = "仅武器精炼";
             WeaponOnly_checkbox.UseVisualStyleBackColor = true;
             WeaponOnly_checkbox.CheckedChanged += WeaponOnly_checkbox_CheckedChanged;
             // 
@@ -752,18 +752,18 @@
             tabPage5.Name = "tabPage5";
             tabPage5.Size = new Size(513, 303);
             tabPage5.TabIndex = 4;
-            tabPage5.Text = "关系";
+            tabPage5.Text = "关系系统";
             tabPage5.UseVisualStyleBackColor = true;
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(76, 187);
+            label24.Location = new Point(107, 187);
             label24.Margin = new Padding(4, 0, 4, 0);
             label24.Name = "label24";
-            label24.Size = new Size(114, 17);
+            label24.Size = new Size(80, 17);
             label24.TabIndex = 14;
-            label24.Text = "Replace Ring Cost";
+            label24.Text = "更换戒指费用";
             // 
             // ReplaceRingCost_textbox
             // 
@@ -777,12 +777,12 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(43, 153);
+            label14.Location = new Point(107, 153);
             label14.Margin = new Padding(4, 0, 4, 0);
             label14.Name = "label14";
-            label14.Size = new Size(152, 17);
+            label14.Size = new Size(80, 17);
             label14.TabIndex = 12;
-            label14.Text = "Marriage Required Level";
+            label14.Text = "结婚所需等级";
             // 
             // RequiredLevel_textbox
             // 
@@ -805,22 +805,22 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(35, 116);
+            label12.Location = new Point(83, 116);
             label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(165, 17);
+            label12.Size = new Size(104, 17);
             label12.TabIndex = 9;
-            label12.Text = "Marriage Cooldown (Days)";
+            label12.Text = "结婚冷却时间 (天)";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(16, 71);
+            label13.Location = new Point(84, 71);
             label13.Margin = new Padding(4, 0, 4, 0);
             label13.Name = "label13";
-            label13.Size = new Size(181, 17);
+            label13.Size = new Size(103, 17);
             label13.TabIndex = 8;
-            label13.Text = "Bonus % Experience in Group";
+            label13.Text = "组队经验加成 (%)";
             // 
             // MarriageCooldown_textbox
             // 
@@ -834,13 +834,13 @@
             // LoverRecall_checkbox
             // 
             LoverRecall_checkbox.AutoSize = true;
-            LoverRecall_checkbox.Location = new Point(37, 31);
+            LoverRecall_checkbox.Location = new Point(100, 31);
             LoverRecall_checkbox.Margin = new Padding(4, 3, 4, 3);
             LoverRecall_checkbox.Name = "LoverRecall_checkbox";
             LoverRecall_checkbox.RightToLeft = RightToLeft.Yes;
-            LoverRecall_checkbox.Size = new Size(175, 21);
+            LoverRecall_checkbox.Size = new Size(87, 21);
             LoverRecall_checkbox.TabIndex = 1;
-            LoverRecall_checkbox.Text = "Recall with Wedding Ring";
+            LoverRecall_checkbox.Text = "用婚戒召唤";
             LoverRecall_checkbox.UseVisualStyleBackColor = true;
             LoverRecall_checkbox.CheckedChanged += LoverRecall_checkbox_CheckedChanged;
             // 
@@ -862,18 +862,18 @@
             tabPage6.Name = "tabPage6";
             tabPage6.Size = new Size(513, 303);
             tabPage6.TabIndex = 5;
-            tabPage6.Text = "师徒";
+            tabPage6.Text = "师徒系统";
             tabPage6.UseVisualStyleBackColor = true;
             // 
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(69, 211);
+            label29.Location = new Point(79, 209);
             label29.Margin = new Padding(4, 0, 4, 0);
             label29.Name = "label29";
-            label29.Size = new Size(157, 17);
+            label29.Size = new Size(139, 17);
             label29.TabIndex = 25;
-            label29.Text = "EXP to Mentor at End (%)";
+            label29.Text = "结束时给予师傅经验 (%)";
             // 
             // MenteeExpBank_textbox
             // 
@@ -887,12 +887,12 @@
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(26, 177);
+            label25.Location = new Point(78, 175);
             label25.Margin = new Padding(4, 0, 4, 0);
             label25.Name = "label25";
-            label25.Size = new Size(201, 17);
+            label25.Size = new Size(140, 17);
             label25.TabIndex = 23;
-            label25.Text = "Mentee EXP Boost (With Mentor)";
+            label25.Text = "徒弟经验加成 (有师傅时)";
             // 
             // MenteeExpBoost_textbox
             // 
@@ -906,12 +906,12 @@
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new Point(4, 143);
+            label26.Location = new Point(78, 141);
             label26.Margin = new Padding(4, 0, 4, 0);
             label26.Name = "label26";
-            label26.Size = new Size(228, 17);
+            label26.Size = new Size(140, 17);
             label26.TabIndex = 21;
-            label26.Text = "Mentor Damage Boost (With Mentee)";
+            label26.Text = "师傅伤害加成 (有徒弟时)";
             // 
             // MentorDamageBoost_textbox
             // 
@@ -934,22 +934,22 @@
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new Point(90, 104);
+            label27.Location = new Point(114, 102);
             label27.Margin = new Padding(4, 0, 4, 0);
             label27.Name = "label27";
-            label27.Size = new Size(134, 17);
+            label27.Size = new Size(104, 17);
             label27.TabIndex = 18;
-            label27.Text = "Mentor Length (Days)";
+            label27.Text = "师徒关系时长 (天)";
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(110, 66);
+            label28.Location = new Point(138, 64);
             label28.Margin = new Padding(4, 0, 4, 0);
             label28.Name = "label28";
-            label28.Size = new Size(112, 17);
+            label28.Size = new Size(80, 17);
             label28.TabIndex = 17;
-            label28.Text = "Mentor Level Gap";
+            label28.Text = "师徒等级差距";
             // 
             // MentorLength_textbox
             // 
@@ -963,13 +963,13 @@
             // MenteeSkillBoost_checkbox
             // 
             MenteeSkillBoost_checkbox.AutoSize = true;
-            MenteeSkillBoost_checkbox.Location = new Point(72, 19);
+            MenteeSkillBoost_checkbox.Location = new Point(40, 17);
             MenteeSkillBoost_checkbox.Margin = new Padding(4, 3, 4, 3);
             MenteeSkillBoost_checkbox.Name = "MenteeSkillBoost_checkbox";
             MenteeSkillBoost_checkbox.RightToLeft = RightToLeft.Yes;
-            MenteeSkillBoost_checkbox.Size = new Size(238, 21);
+            MenteeSkillBoost_checkbox.Size = new Size(178, 21);
             MenteeSkillBoost_checkbox.TabIndex = 15;
-            MenteeSkillBoost_checkbox.Text = "Mentee 2x Skill Speed (with Mentor)";
+            MenteeSkillBoost_checkbox.Text = "徒弟技能速度2倍 (有师傅时)";
             MenteeSkillBoost_checkbox.UseVisualStyleBackColor = true;
             MenteeSkillBoost_checkbox.CheckedChanged += MenteeSkillBoost_checkbox_CheckedChanged;
             // 
@@ -982,7 +982,7 @@
             tabPage7.Padding = new Padding(4, 3, 4, 3);
             tabPage7.Size = new Size(513, 303);
             tabPage7.TabIndex = 6;
-            tabPage7.Text = "宝石";
+            tabPage7.Text = "宝石系统";
             tabPage7.UseVisualStyleBackColor = true;
             // 
             // GemStatCheckBox
@@ -992,9 +992,9 @@
             GemStatCheckBox.Margin = new Padding(4, 3, 4, 3);
             GemStatCheckBox.Name = "GemStatCheckBox";
             GemStatCheckBox.RightToLeft = RightToLeft.Yes;
-            GemStatCheckBox.Size = new Size(158, 21);
+            GemStatCheckBox.Size = new Size(99, 21);
             GemStatCheckBox.TabIndex = 16;
-            GemStatCheckBox.Text = "Gem Stat Independent";
+            GemStatCheckBox.Text = "宝石属性独立";
             GemStatCheckBox.UseVisualStyleBackColor = true;
             GemStatCheckBox.CheckedChanged += GemStatCheckBox_CheckedChanged;
             // 
@@ -1011,7 +1011,7 @@
             tabPage8.Padding = new Padding(4, 3, 4, 3);
             tabPage8.Size = new Size(513, 303);
             tabPage8.TabIndex = 7;
-            tabPage8.Text = "复活点";
+            tabPage8.Text = "复活点系统";
             tabPage8.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -1028,16 +1028,16 @@
             // lbltickmins
             // 
             lbltickmins.AutoSize = true;
-            lbltickmins.Location = new Point(204, 8);
+            lbltickmins.Location = new Point(186, 21);
             lbltickmins.Margin = new Padding(4, 0, 4, 0);
             lbltickmins.Name = "lbltickmins";
-            lbltickmins.Size = new Size(67, 17);
+            lbltickmins.Size = new Size(40, 17);
             lbltickmins.TabIndex = 2;
-            lbltickmins.Text = "in minutes";
+            lbltickmins.Text = "(分钟)";
             // 
             // txtSpawnTickDefault
             // 
-            txtSpawnTickDefault.Location = new Point(135, 2);
+            txtSpawnTickDefault.Location = new Point(115, 18);
             txtSpawnTickDefault.Margin = new Padding(4, 3, 4, 3);
             txtSpawnTickDefault.Name = "txtSpawnTickDefault";
             txtSpawnTickDefault.Size = new Size(63, 23);
@@ -1048,12 +1048,12 @@
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new Point(4, 8);
+            label32.Location = new Point(36, 21);
             label32.Margin = new Padding(4, 0, 4, 0);
             label32.Name = "label32";
-            label32.Size = new Size(112, 17);
+            label32.Size = new Size(71, 17);
             label32.TabIndex = 0;
-            label32.Text = "Default tickspeed:";
+            label32.Text = "默认刷新率:";
             // 
             // pnlSpawnTickConfig
             // 
@@ -1090,22 +1090,22 @@
             // label31
             // 
             label31.AutoSize = true;
-            label31.Location = new Point(4, 49);
+            label31.Location = new Point(56, 47);
             label31.Margin = new Padding(4, 0, 4, 0);
             label31.Name = "label31";
-            label31.Size = new Size(109, 17);
+            label31.Size = new Size(71, 17);
             label31.TabIndex = 1;
-            label31.Text = "Spawntick speed:";
+            label31.Text = "刷怪刷新率:";
             // 
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new Point(4, 15);
+            label30.Location = new Point(56, 13);
             label30.Margin = new Padding(4, 0, 4, 0);
             label30.Name = "label30";
-            label30.Size = new Size(83, 17);
+            label30.Size = new Size(71, 17);
             label30.TabIndex = 0;
-            label30.Text = "Users online:";
+            label30.Text = "在线用户数:";
             // 
             // lbSpawnTickList
             // 
@@ -1125,7 +1125,7 @@
             btnSpawnTickRemove.Name = "btnSpawnTickRemove";
             btnSpawnTickRemove.Size = new Size(78, 31);
             btnSpawnTickRemove.TabIndex = 1;
-            btnSpawnTickRemove.Text = "Remove";
+            btnSpawnTickRemove.Text = "移除";
             btnSpawnTickRemove.UseVisualStyleBackColor = true;
             btnSpawnTickRemove.Click += btnSpawnTickRemove_Click;
             // 
@@ -1136,7 +1136,7 @@
             btnSpawnTickAdd.Name = "btnSpawnTickAdd";
             btnSpawnTickAdd.Size = new Size(78, 31);
             btnSpawnTickAdd.TabIndex = 0;
-            btnSpawnTickAdd.Text = "Add";
+            btnSpawnTickAdd.Text = "添加";
             btnSpawnTickAdd.UseVisualStyleBackColor = true;
             btnSpawnTickAdd.Click += btnSpawnTickAdd_Click;
             // 
@@ -1152,7 +1152,7 @@
             tabPage9.Padding = new Padding(3);
             tabPage9.Size = new Size(513, 303);
             tabPage9.TabIndex = 8;
-            tabPage9.Text = "英雄";
+            tabPage9.Text = "英雄系统";
             tabPage9.UseVisualStyleBackColor = true;
             // 
             // groupBox6
@@ -1163,7 +1163,7 @@
             groupBox6.Size = new Size(172, 92);
             groupBox6.TabIndex = 3;
             groupBox6.TabStop = false;
-            groupBox6.Text = "Hero Seal Item";
+            groupBox6.Text = "英雄封印道具";
             toolTip1.SetToolTip(groupBox6, "Select the Hero Sealing Item from the Item database. This will be used when a hero is sealed and must be the correct ItemType to work.");
             // 
             // HeroSealItem_ComboBox
@@ -1196,45 +1196,45 @@
             label40.AutoSize = true;
             label40.Location = new Point(3, 90);
             label40.Name = "label40";
-            label40.Size = new Size(321, 17);
+            label40.Size = new Size(287, 17);
             label40.TabIndex = 4;
-            label40.Text = "@SEALHERO - Store current hero in a Hero Seal Item.";
+            label40.Text = "@SEALHERO - 将当前英雄存储到英雄封印道具中。";
             // 
             // label39
             // 
             label39.AutoSize = true;
             label39.Location = new Point(3, 73);
             label39.Name = "label39";
-            label39.Size = new Size(330, 17);
+            label39.Size = new Size(241, 17);
             label39.TabIndex = 3;
-            label39.Text = "@MANAGEHERO - Open the hero management dialog.";
+            label39.Text = "@MANAGEHERO - 打开英雄管理对话框。";
             // 
             // label38
             // 
             label38.AutoSize = true;
             label38.Location = new Point(3, 56);
             label38.Name = "label38";
-            label38.Size = new Size(308, 17);
+            label38.Size = new Size(229, 17);
             label38.TabIndex = 2;
-            label38.Text = "@REVIVEHERO - Revive the currently selected hero.";
+            label38.Text = "@REVIVEHERO - 复活当前选中的英雄。";
             // 
             // label37
             // 
             label37.AutoSize = true;
             label37.Location = new Point(3, 39);
             label37.Name = "label37";
-            label37.Size = new Size(309, 17);
+            label37.Size = new Size(230, 17);
             label37.TabIndex = 1;
-            label37.Text = "@DELETEHERO - Delete the currently selected hero.";
+            label37.Text = "@DELETEHERO - 删除当前选中的英雄。";
             // 
             // label36
             // 
             label36.AutoSize = true;
             label36.Location = new Point(3, 22);
             label36.Name = "label36";
-            label36.Size = new Size(336, 17);
+            label36.Size = new Size(237, 17);
             label36.TabIndex = 0;
-            label36.Text = "@ADDHERO - Add a new hero companion to the player.";
+            label36.Text = "@ADDHERO - 为玩家添加新的英雄伙伴。";
             // 
             // groupBox4
             // 
@@ -1250,13 +1250,13 @@
             groupBox4.Size = new Size(307, 131);
             groupBox4.TabIndex = 1;
             groupBox4.TabStop = false;
-            groupBox4.Text = "Settings";
+            groupBox4.Text = "设置";
             toolTip1.SetToolTip(groupBox4, "Common Settings for configuring the Heroes feature.");
             // 
             // label41
             // 
             label41.AutoSize = true;
-            label41.Location = new Point(235, 97);
+            label41.Location = new Point(246, 95);
             label41.Name = "label41";
             label41.Size = new Size(43, 17);
             label41.TabIndex = 6;
@@ -1265,36 +1265,36 @@
             // label35
             // 
             label35.AutoSize = true;
-            label35.Location = new Point(33, 95);
+            label35.Location = new Point(89, 95);
             label35.Name = "label35";
-            label35.Size = new Size(173, 17);
+            label35.Size = new Size(116, 17);
             label35.TabIndex = 5;
-            label35.Text = "Maximum Heroes Per Player";
+            label35.Text = "每玩家最大英雄数量：";
             toolTip1.SetToolTip(label35, "This is the Maximum amount of Heroes a player can have. (Client GUI Supports 1 Active and 8 Stored via Management dialog).");
             // 
             // label34
             // 
             label34.AutoSize = true;
-            label34.Location = new Point(33, 65);
+            label34.Location = new Point(65, 58);
             label34.Name = "label34";
-            label34.Size = new Size(233, 17);
+            label34.Size = new Size(140, 17);
             label34.TabIndex = 4;
-            label34.Text = "Maximum Times a Hero can be Sealed";
+            label34.Text = "英雄可被封印的最大次数：";
             toolTip1.SetToolTip(label34, "This is the maximum amount of times a single hero can be Sealed into a hero item for sale.");
             // 
             // label33
             // 
             label33.AutoSize = true;
-            label33.Location = new Point(33, 29);
+            label33.Location = new Point(65, 29);
             label33.Name = "label33";
-            label33.Size = new Size(188, 17);
+            label33.Size = new Size(140, 17);
             label33.TabIndex = 3;
-            label33.Text = "Minimum Player Level for Hero";
+            label33.Text = "拥有英雄的最低玩家等级";
             toolTip1.SetToolTip(label33, "This is the minimum level a player must be to have a hero companion.");
             // 
             // MaxPlayerHeroCount_textBox
             // 
-            MaxPlayerHeroCount_textBox.Location = new Point(202, 92);
+            MaxPlayerHeroCount_textBox.Location = new Point(211, 92);
             MaxPlayerHeroCount_textBox.Name = "MaxPlayerHeroCount_textBox";
             MaxPlayerHeroCount_textBox.Size = new Size(29, 23);
             MaxPlayerHeroCount_textBox.TabIndex = 2;
@@ -1304,7 +1304,7 @@
             // 
             // MaxHeroSealCount_textBox
             // 
-            MaxHeroSealCount_textBox.Location = new Point(242, 59);
+            MaxHeroSealCount_textBox.Location = new Point(211, 55);
             MaxHeroSealCount_textBox.Name = "MaxHeroSealCount_textBox";
             MaxHeroSealCount_textBox.Size = new Size(29, 23);
             MaxHeroSealCount_textBox.TabIndex = 1;
@@ -1334,7 +1334,7 @@
             groupBox3.Size = new Size(172, 156);
             groupBox3.TabIndex = 0;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Hero Creation";
+            groupBox3.Text = "英雄创建";
             toolTip1.SetToolTip(groupBox3, "Select Which Classes can Be Created");
             // 
             // AllowArcherHero_checkBox
@@ -1343,9 +1343,9 @@
             AllowArcherHero_checkBox.CheckAlign = ContentAlignment.MiddleRight;
             AllowArcherHero_checkBox.Location = new Point(26, 126);
             AllowArcherHero_checkBox.Name = "AllowArcherHero_checkBox";
-            AllowArcherHero_checkBox.Size = new Size(133, 21);
+            AllowArcherHero_checkBox.Size = new Size(111, 21);
             AllowArcherHero_checkBox.TabIndex = 5;
-            AllowArcherHero_checkBox.Text = "Allow Archer Hero";
+            AllowArcherHero_checkBox.Text = "允许弓箭手英雄";
             toolTip1.SetToolTip(AllowArcherHero_checkBox, "Enable/Disable the creation of Archer Heroes");
             AllowArcherHero_checkBox.UseVisualStyleBackColor = true;
             AllowArcherHero_checkBox.CheckedChanged += AllowArcherHero_checkBox_CheckedChanged;
@@ -1354,11 +1354,11 @@
             // 
             AllowAssassinHero_checkBox.AutoSize = true;
             AllowAssassinHero_checkBox.CheckAlign = ContentAlignment.MiddleRight;
-            AllowAssassinHero_checkBox.Location = new Point(17, 100);
+            AllowAssassinHero_checkBox.Location = new Point(38, 100);
             AllowAssassinHero_checkBox.Name = "AllowAssassinHero_checkBox";
-            AllowAssassinHero_checkBox.Size = new Size(144, 21);
+            AllowAssassinHero_checkBox.Size = new Size(99, 21);
             AllowAssassinHero_checkBox.TabIndex = 4;
-            AllowAssassinHero_checkBox.Text = "Allow Assassin Hero";
+            AllowAssassinHero_checkBox.Text = "允许刺客英雄";
             toolTip1.SetToolTip(AllowAssassinHero_checkBox, "Enable/Disable the creation of Assassin Heroes");
             AllowAssassinHero_checkBox.UseVisualStyleBackColor = true;
             AllowAssassinHero_checkBox.CheckedChanged += AllowAssassinHero_checkBox_CheckedChanged;
@@ -1367,11 +1367,11 @@
             // 
             AllowTaoistHero_checkBox.AutoSize = true;
             AllowTaoistHero_checkBox.CheckAlign = ContentAlignment.MiddleRight;
-            AllowTaoistHero_checkBox.Location = new Point(31, 74);
+            AllowTaoistHero_checkBox.Location = new Point(38, 74);
             AllowTaoistHero_checkBox.Name = "AllowTaoistHero_checkBox";
-            AllowTaoistHero_checkBox.Size = new Size(130, 21);
+            AllowTaoistHero_checkBox.Size = new Size(99, 21);
             AllowTaoistHero_checkBox.TabIndex = 3;
-            AllowTaoistHero_checkBox.Text = "Allow Taoist Hero";
+            AllowTaoistHero_checkBox.Text = "允许道士英雄";
             toolTip1.SetToolTip(AllowTaoistHero_checkBox, "Enable/Disable the creation of Taoist Heroes");
             AllowTaoistHero_checkBox.UseVisualStyleBackColor = true;
             AllowTaoistHero_checkBox.CheckedChanged += AllowTaoistHero_checkBox_CheckedChanged;
@@ -1380,11 +1380,11 @@
             // 
             AllowWizardHero_checkBox.AutoSize = true;
             AllowWizardHero_checkBox.CheckAlign = ContentAlignment.MiddleRight;
-            AllowWizardHero_checkBox.Location = new Point(25, 48);
+            AllowWizardHero_checkBox.Location = new Point(38, 48);
             AllowWizardHero_checkBox.Name = "AllowWizardHero_checkBox";
-            AllowWizardHero_checkBox.Size = new Size(136, 21);
+            AllowWizardHero_checkBox.Size = new Size(99, 21);
             AllowWizardHero_checkBox.TabIndex = 2;
-            AllowWizardHero_checkBox.Text = "Allow Wizard Hero";
+            AllowWizardHero_checkBox.Text = "允许法师英雄";
             toolTip1.SetToolTip(AllowWizardHero_checkBox, "Enable/Disable the creation of Wizard Heroes");
             AllowWizardHero_checkBox.UseVisualStyleBackColor = true;
             AllowWizardHero_checkBox.CheckedChanged += AllowWizardHero_checkBox_CheckedChanged;
@@ -1393,11 +1393,11 @@
             // 
             AllowWarriorHero_checkBox.AutoSize = true;
             AllowWarriorHero_checkBox.CheckAlign = ContentAlignment.MiddleRight;
-            AllowWarriorHero_checkBox.Location = new Point(22, 22);
+            AllowWarriorHero_checkBox.Location = new Point(38, 22);
             AllowWarriorHero_checkBox.Name = "AllowWarriorHero_checkBox";
-            AllowWarriorHero_checkBox.Size = new Size(140, 21);
+            AllowWarriorHero_checkBox.Size = new Size(99, 21);
             AllowWarriorHero_checkBox.TabIndex = 1;
-            AllowWarriorHero_checkBox.Text = "Allow Warrior Hero";
+            AllowWarriorHero_checkBox.Text = "允许战士英雄";
             toolTip1.SetToolTip(AllowWarriorHero_checkBox, "Enable/Disable the creation of Warrior Heroes");
             AllowWarriorHero_checkBox.UseVisualStyleBackColor = true;
             AllowWarriorHero_checkBox.CheckedChanged += AllowWarriorHero_checkBox_CheckedChanged;
@@ -1408,9 +1408,9 @@
             AllowNewHero_checkBox.CheckAlign = ContentAlignment.MiddleRight;
             AllowNewHero_checkBox.Location = new Point(57, 10);
             AllowNewHero_checkBox.Name = "AllowNewHero_checkBox";
-            AllowNewHero_checkBox.Size = new Size(203, 21);
+            AllowNewHero_checkBox.Size = new Size(111, 21);
             AllowNewHero_checkBox.TabIndex = 0;
-            AllowNewHero_checkBox.Text = "Allow Creation of New Heroes";
+            AllowNewHero_checkBox.Text = "允许创建新英雄";
             toolTip1.SetToolTip(AllowNewHero_checkBox, "Enable/Disable players ability to create new hero companions.");
             AllowNewHero_checkBox.UseVisualStyleBackColor = true;
             AllowNewHero_checkBox.CheckedChanged += AllowNewHero_checkBox_CheckedChanged;
@@ -1426,7 +1426,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "SystemInfoForm";
-            Text = "SystemInfoForm";
+            Text = "系统配置中心";
             FormClosed += SystemInfoForm_FormClosed;
             Load += SystemInfoForm_Load;
             tabPage1.ResumeLayout(false);
