@@ -128,12 +128,12 @@
             // SaveButton
             // 
             SaveButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            SaveButton.Location = new Point(411, 398);
-            SaveButton.Margin = new Padding(3, 4, 3, 4);
+            SaveButton.Location = new Point(411, 451);
+            SaveButton.Margin = new Padding(3, 5, 3, 5);
             SaveButton.Name = "SaveButton";
-            SaveButton.Size = new Size(87, 26);
+            SaveButton.Size = new Size(87, 29);
             SaveButton.TabIndex = 6;
-            SaveButton.Text = "Close";
+            SaveButton.Text = "关闭";
             SaveButton.UseVisualStyleBackColor = true;
             SaveButton.Click += SaveButton_Click;
             // 
@@ -145,11 +145,11 @@
             configTabs.Controls.Add(tabPage4);
             configTabs.Controls.Add(tabPage6);
             configTabs.Controls.Add(tabPage5);
-            configTabs.Location = new Point(14, 14);
-            configTabs.Margin = new Padding(3, 4, 3, 4);
+            configTabs.Location = new Point(14, 16);
+            configTabs.Margin = new Padding(3, 5, 3, 5);
             configTabs.Name = "configTabs";
             configTabs.SelectedIndex = 0;
-            configTabs.Size = new Size(484, 376);
+            configTabs.Size = new Size(484, 426);
             configTabs.TabIndex = 5;
             // 
             // tabPage1
@@ -162,13 +162,13 @@
             tabPage1.Controls.Add(VPathBrowseButton);
             tabPage1.Controls.Add(VPathTextBox);
             tabPage1.Controls.Add(label1);
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Margin = new Padding(3, 4, 3, 4);
+            tabPage1.Location = new Point(4, 26);
+            tabPage1.Margin = new Padding(3, 5, 3, 5);
             tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3, 4, 3, 4);
-            tabPage1.Size = new Size(476, 348);
+            tabPage1.Padding = new Padding(3, 5, 3, 5);
+            tabPage1.Size = new Size(476, 396);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Version";
+            tabPage1.Text = "版本";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -177,50 +177,50 @@
             groupBox2.Controls.Add(ReaddSinDrops);
             groupBox2.Controls.Add(RemoveArcDrops);
             groupBox2.Controls.Add(RemoveSinDrops);
-            groupBox2.Location = new Point(17, 115);
+            groupBox2.Location = new Point(17, 130);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(310, 84);
+            groupBox2.Size = new Size(310, 95);
             groupBox2.TabIndex = 26;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Drops";
+            groupBox2.Text = "掉落";
             // 
             // ReaddArcDrops
             // 
-            ReaddArcDrops.Location = new Point(158, 51);
+            ReaddArcDrops.Location = new Point(158, 58);
             ReaddArcDrops.Name = "ReaddArcDrops";
-            ReaddArcDrops.Size = new Size(144, 23);
+            ReaddArcDrops.Size = new Size(144, 26);
             ReaddArcDrops.TabIndex = 3;
-            ReaddArcDrops.Text = "ReAdd Archer Drops";
+            ReaddArcDrops.Text = "重新添加阿彻掉落物";
             ReaddArcDrops.UseVisualStyleBackColor = true;
             ReaddArcDrops.Click += ReaddArcDrops_Click;
             // 
             // ReaddSinDrops
             // 
-            ReaddSinDrops.Location = new Point(158, 22);
+            ReaddSinDrops.Location = new Point(158, 25);
             ReaddSinDrops.Name = "ReaddSinDrops";
-            ReaddSinDrops.Size = new Size(144, 23);
+            ReaddSinDrops.Size = new Size(144, 26);
             ReaddSinDrops.TabIndex = 2;
-            ReaddSinDrops.Text = "ReAdd Assassin Drops";
+            ReaddSinDrops.Text = "重新添加刺客掉落物";
             ReaddSinDrops.UseVisualStyleBackColor = true;
             ReaddSinDrops.Click += ReaddSinDrops_Click;
             // 
             // RemoveArcDrops
             // 
-            RemoveArcDrops.Location = new Point(6, 51);
+            RemoveArcDrops.Location = new Point(6, 58);
             RemoveArcDrops.Name = "RemoveArcDrops";
-            RemoveArcDrops.Size = new Size(144, 23);
+            RemoveArcDrops.Size = new Size(144, 26);
             RemoveArcDrops.TabIndex = 1;
-            RemoveArcDrops.Text = "Remove Archer Drops";
+            RemoveArcDrops.Text = "移除弓箭手掉落物";
             RemoveArcDrops.UseVisualStyleBackColor = true;
             RemoveArcDrops.Click += RemoveArcDrops_Click;
             // 
             // RemoveSinDrops
             // 
-            RemoveSinDrops.Location = new Point(6, 22);
+            RemoveSinDrops.Location = new Point(6, 25);
             RemoveSinDrops.Name = "RemoveSinDrops";
-            RemoveSinDrops.Size = new Size(144, 23);
+            RemoveSinDrops.Size = new Size(144, 26);
             RemoveSinDrops.TabIndex = 0;
-            RemoveSinDrops.Text = "Remove Assassin Drops";
+            RemoveSinDrops.Text = "移除刺客掉落物";
             RemoveSinDrops.UseVisualStyleBackColor = true;
             RemoveSinDrops.Click += RemoveSinDrops_Click;
             // 
@@ -230,55 +230,55 @@
             groupBox1.Controls.Add(DBVersionLabel);
             groupBox1.Controls.Add(ServerVersionLabel);
             groupBox1.Controls.Add(label10);
-            groupBox1.Location = new Point(7, 266);
-            groupBox1.Margin = new Padding(3, 4, 3, 4);
+            groupBox1.Location = new Point(7, 301);
+            groupBox1.Margin = new Padding(3, 5, 3, 5);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(460, 74);
+            groupBox1.Padding = new Padding(3, 5, 3, 5);
+            groupBox1.Size = new Size(460, 84);
             groupBox1.TabIndex = 25;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Version Info";
+            groupBox1.Text = "版本信息";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(7, 49);
+            label11.Location = new Point(7, 56);
             label11.Name = "label11";
-            label11.Size = new Size(55, 15);
+            label11.Size = new Size(63, 17);
             label11.TabIndex = 23;
             label11.Text = "Database";
             // 
             // DBVersionLabel
             // 
             DBVersionLabel.AutoSize = true;
-            DBVersionLabel.Location = new Point(89, 49);
+            DBVersionLabel.Location = new Point(89, 56);
             DBVersionLabel.Name = "DBVersionLabel";
-            DBVersionLabel.Size = new Size(45, 15);
+            DBVersionLabel.Size = new Size(52, 17);
             DBVersionLabel.TabIndex = 24;
             DBVersionLabel.Text = "Version";
             // 
             // ServerVersionLabel
             // 
             ServerVersionLabel.AutoSize = true;
-            ServerVersionLabel.Location = new Point(89, 23);
+            ServerVersionLabel.Location = new Point(89, 26);
             ServerVersionLabel.Name = "ServerVersionLabel";
-            ServerVersionLabel.Size = new Size(45, 15);
+            ServerVersionLabel.Size = new Size(52, 17);
             ServerVersionLabel.TabIndex = 7;
             ServerVersionLabel.Text = "Version";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(7, 23);
+            label10.Location = new Point(7, 26);
             label10.Name = "label10";
-            label10.Size = new Size(39, 15);
+            label10.Size = new Size(45, 17);
             label10.TabIndex = 22;
             label10.Text = "Server";
             // 
             // RelogDelayTextBox
             // 
-            RelogDelayTextBox.Location = new Point(104, 75);
-            RelogDelayTextBox.Margin = new Padding(3, 4, 3, 4);
+            RelogDelayTextBox.Location = new Point(104, 85);
+            RelogDelayTextBox.Margin = new Padding(3, 5, 3, 5);
             RelogDelayTextBox.MaxLength = 5;
             RelogDelayTextBox.Name = "RelogDelayTextBox";
             RelogDelayTextBox.Size = new Size(108, 23);
@@ -288,29 +288,29 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(17, 79);
+            label7.Location = new Point(17, 88);
             label7.Name = "label7";
-            label7.Size = new Size(72, 15);
+            label7.Size = new Size(71, 17);
             label7.TabIndex = 20;
-            label7.Text = "Relog Delay:";
+            label7.Text = "重登录延迟:";
             // 
             // VersionCheckBox
             // 
             VersionCheckBox.AutoSize = true;
-            VersionCheckBox.Location = new Point(104, 49);
-            VersionCheckBox.Margin = new Padding(3, 4, 3, 4);
+            VersionCheckBox.Location = new Point(104, 56);
+            VersionCheckBox.Margin = new Padding(3, 5, 3, 5);
             VersionCheckBox.Name = "VersionCheckBox";
-            VersionCheckBox.Size = new Size(150, 19);
+            VersionCheckBox.Size = new Size(111, 21);
             VersionCheckBox.TabIndex = 3;
-            VersionCheckBox.Text = "Check for client version";
+            VersionCheckBox.Text = "检测客户端版本";
             VersionCheckBox.UseVisualStyleBackColor = true;
             // 
             // VPathBrowseButton
             // 
-            VPathBrowseButton.Location = new Point(436, 16);
-            VPathBrowseButton.Margin = new Padding(3, 4, 3, 4);
+            VPathBrowseButton.Location = new Point(436, 18);
+            VPathBrowseButton.Margin = new Padding(3, 5, 3, 5);
             VPathBrowseButton.Name = "VPathBrowseButton";
-            VPathBrowseButton.Size = new Size(33, 26);
+            VPathBrowseButton.Size = new Size(33, 29);
             VPathBrowseButton.TabIndex = 2;
             VPathBrowseButton.Text = "...";
             VPathBrowseButton.UseVisualStyleBackColor = true;
@@ -318,8 +318,8 @@
             // 
             // VPathTextBox
             // 
-            VPathTextBox.Location = new Point(104, 19);
-            VPathTextBox.Margin = new Padding(3, 4, 3, 4);
+            VPathTextBox.Location = new Point(104, 22);
+            VPathTextBox.Margin = new Padding(3, 5, 3, 5);
             VPathTextBox.Name = "VPathTextBox";
             VPathTextBox.ReadOnly = true;
             VPathTextBox.Size = new Size(324, 23);
@@ -328,11 +328,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(16, 23);
+            label1.Location = new Point(29, 25);
             label1.Name = "label1";
-            label1.Size = new Size(75, 15);
+            label1.Size = new Size(59, 17);
             label1.TabIndex = 0;
-            label1.Text = "Version Path:";
+            label1.Text = "版本路径:";
             // 
             // tabPage2
             // 
@@ -352,19 +352,19 @@
             tabPage2.Controls.Add(label3);
             tabPage2.Controls.Add(IPAddressTextBox);
             tabPage2.Controls.Add(label2);
-            tabPage2.Location = new Point(4, 24);
-            tabPage2.Margin = new Padding(3, 4, 3, 4);
+            tabPage2.Location = new Point(4, 26);
+            tabPage2.Margin = new Padding(3, 5, 3, 5);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3, 4, 3, 4);
-            tabPage2.Size = new Size(476, 348);
+            tabPage2.Padding = new Padding(3, 5, 3, 5);
+            tabPage2.Size = new Size(476, 396);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "Network";
+            tabPage2.Text = "网络";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // maxConnectionsPerIP
             // 
-            maxConnectionsPerIP.Location = new Point(142, 144);
-            maxConnectionsPerIP.Margin = new Padding(3, 4, 3, 4);
+            maxConnectionsPerIP.Location = new Point(142, 163);
+            maxConnectionsPerIP.Margin = new Padding(3, 5, 3, 5);
             maxConnectionsPerIP.MaxLength = 5;
             maxConnectionsPerIP.Name = "maxConnectionsPerIP";
             maxConnectionsPerIP.Size = new Size(48, 23);
@@ -373,37 +373,37 @@
             // lblMaxConnectionsPerIP
             // 
             lblMaxConnectionsPerIP.AutoSize = true;
-            lblMaxConnectionsPerIP.Location = new Point(26, 147);
+            lblMaxConnectionsPerIP.Location = new Point(59, 166);
             lblMaxConnectionsPerIP.Name = "lblMaxConnectionsPerIP";
-            lblMaxConnectionsPerIP.Size = new Size(115, 15);
+            lblMaxConnectionsPerIP.Size = new Size(75, 17);
             lblMaxConnectionsPerIP.TabIndex = 24;
-            lblMaxConnectionsPerIP.Text = "Max connections/IP:";
+            lblMaxConnectionsPerIP.Text = "最大连接/IP:";
             // 
             // StartHTTPCheckBox
             // 
             StartHTTPCheckBox.AutoSize = true;
-            StartHTTPCheckBox.Location = new Point(28, 180);
-            StartHTTPCheckBox.Margin = new Padding(3, 4, 3, 4);
+            StartHTTPCheckBox.Location = new Point(29, 206);
+            StartHTTPCheckBox.Margin = new Padding(3, 5, 3, 5);
             StartHTTPCheckBox.Name = "StartHTTPCheckBox";
-            StartHTTPCheckBox.Size = new Size(123, 19);
+            StartHTTPCheckBox.Size = new Size(105, 21);
             StartHTTPCheckBox.TabIndex = 23;
-            StartHTTPCheckBox.Text = "Start HTTP Service";
+            StartHTTPCheckBox.Text = "开启HTTP服务";
             StartHTTPCheckBox.UseVisualStyleBackColor = true;
             StartHTTPCheckBox.CheckedChanged += StartHTTPCheckBox_CheckedChanged;
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(26, 285);
+            label15.Location = new Point(26, 323);
             label15.Name = "label15";
-            label15.Size = new Size(224, 15);
+            label15.Size = new Size(174, 17);
             label15.TabIndex = 22;
-            label15.Text = "(http service only allow trusted IP to visit)";
+            label15.Text = "（http服务仅允许可信IP访问）";
             // 
             // HTTPTrustedIPAddressTextBox
             // 
-            HTTPTrustedIPAddressTextBox.Location = new Point(175, 248);
-            HTTPTrustedIPAddressTextBox.Margin = new Padding(3, 4, 3, 4);
+            HTTPTrustedIPAddressTextBox.Location = new Point(175, 281);
+            HTTPTrustedIPAddressTextBox.Margin = new Padding(3, 5, 3, 5);
             HTTPTrustedIPAddressTextBox.MaxLength = 30;
             HTTPTrustedIPAddressTextBox.Name = "HTTPTrustedIPAddressTextBox";
             HTTPTrustedIPAddressTextBox.Size = new Size(198, 23);
@@ -413,16 +413,16 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(26, 251);
+            label14.Location = new Point(69, 284);
             label14.Name = "label14";
-            label14.Size = new Size(140, 15);
+            label14.Size = new Size(100, 17);
             label14.TabIndex = 20;
-            label14.Text = "HTTP Trusted IP Address:";
+            label14.Text = "HTTP可信IP地址:";
             // 
             // HTTPIPAddressTextBox
             // 
-            HTTPIPAddressTextBox.Location = new Point(175, 211);
-            HTTPIPAddressTextBox.Margin = new Padding(3, 4, 3, 4);
+            HTTPIPAddressTextBox.Location = new Point(175, 239);
+            HTTPIPAddressTextBox.Margin = new Padding(3, 5, 3, 5);
             HTTPIPAddressTextBox.MaxLength = 30;
             HTTPIPAddressTextBox.Name = "HTTPIPAddressTextBox";
             HTTPIPAddressTextBox.Size = new Size(198, 23);
@@ -432,16 +432,16 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(26, 214);
+            label13.Location = new Point(85, 242);
             label13.Name = "label13";
-            label13.Size = new Size(98, 15);
+            label13.Size = new Size(84, 17);
             label13.TabIndex = 18;
-            label13.Text = "HTTP IP Address:";
+            label13.Text = "HTTP IP 地址:";
             // 
             // MaxUserTextBox
             // 
-            MaxUserTextBox.Location = new Point(142, 109);
-            MaxUserTextBox.Margin = new Padding(3, 4, 3, 4);
+            MaxUserTextBox.Location = new Point(142, 124);
+            MaxUserTextBox.Margin = new Padding(3, 5, 3, 5);
             MaxUserTextBox.MaxLength = 5;
             MaxUserTextBox.Name = "MaxUserTextBox";
             MaxUserTextBox.Size = new Size(48, 23);
@@ -451,16 +451,16 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(71, 113);
+            label5.Location = new Point(75, 128);
             label5.Name = "label5";
-            label5.Size = new Size(58, 15);
+            label5.Size = new Size(59, 17);
             label5.TabIndex = 16;
-            label5.Text = "Max User:";
+            label5.Text = "最大玩家:";
             // 
             // TimeOutTextBox
             // 
-            TimeOutTextBox.Location = new Point(142, 79);
-            TimeOutTextBox.Margin = new Padding(3, 4, 3, 4);
+            TimeOutTextBox.Location = new Point(142, 90);
+            TimeOutTextBox.Margin = new Padding(3, 5, 3, 5);
             TimeOutTextBox.MaxLength = 5;
             TimeOutTextBox.Name = "TimeOutTextBox";
             TimeOutTextBox.Size = new Size(108, 23);
@@ -470,16 +470,16 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(77, 83);
+            label4.Location = new Point(99, 94);
             label4.Name = "label4";
-            label4.Size = new Size(57, 15);
+            label4.Size = new Size(35, 17);
             label4.TabIndex = 14;
-            label4.Text = "TimeOut:";
+            label4.Text = "超时:";
             // 
             // PortTextBox
             // 
-            PortTextBox.Location = new Point(142, 49);
-            PortTextBox.Margin = new Padding(3, 4, 3, 4);
+            PortTextBox.Location = new Point(142, 56);
+            PortTextBox.Margin = new Padding(3, 5, 3, 5);
             PortTextBox.MaxLength = 5;
             PortTextBox.Name = "PortTextBox";
             PortTextBox.Size = new Size(48, 23);
@@ -489,16 +489,16 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(101, 53);
+            label3.Location = new Point(99, 60);
             label3.Name = "label3";
-            label3.Size = new Size(32, 15);
+            label3.Size = new Size(35, 17);
             label3.TabIndex = 12;
-            label3.Text = "Port:";
+            label3.Text = "端口:";
             // 
             // IPAddressTextBox
             // 
-            IPAddressTextBox.Location = new Point(142, 19);
-            IPAddressTextBox.Margin = new Padding(3, 4, 3, 4);
+            IPAddressTextBox.Location = new Point(142, 22);
+            IPAddressTextBox.Margin = new Padding(3, 5, 3, 5);
             IPAddressTextBox.MaxLength = 15;
             IPAddressTextBox.Name = "IPAddressTextBox";
             IPAddressTextBox.Size = new Size(108, 23);
@@ -508,11 +508,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(64, 23);
+            label2.Location = new Point(84, 26);
             label2.Name = "label2";
-            label2.Size = new Size(65, 15);
+            label2.Size = new Size(50, 17);
             label2.TabIndex = 10;
-            label2.Text = "IP Address:";
+            label2.Text = "IP 地址:";
             // 
             // tabPage3
             // 
@@ -528,49 +528,49 @@
             tabPage3.Controls.Add(LoginCheckBox);
             tabPage3.Controls.Add(PasswordCheckBox);
             tabPage3.Controls.Add(AccountCheckBox);
-            tabPage3.Location = new Point(4, 24);
-            tabPage3.Margin = new Padding(3, 4, 3, 4);
+            tabPage3.Location = new Point(4, 26);
+            tabPage3.Margin = new Padding(3, 5, 3, 5);
             tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3, 4, 3, 4);
-            tabPage3.Size = new Size(476, 348);
+            tabPage3.Padding = new Padding(3, 5, 3, 5);
+            tabPage3.Size = new Size(476, 396);
             tabPage3.TabIndex = 2;
-            tabPage3.Text = "Permissions";
+            tabPage3.Text = "权限";
             tabPage3.UseVisualStyleBackColor = true;
             tabPage3.Click += tabPage3_Click;
             // 
             // ObserveCheckBox
             // 
             ObserveCheckBox.AutoSize = true;
-            ObserveCheckBox.Location = new Point(28, 237);
-            ObserveCheckBox.Margin = new Padding(3, 4, 3, 4);
+            ObserveCheckBox.Location = new Point(28, 269);
+            ObserveCheckBox.Margin = new Padding(3, 5, 3, 5);
             ObserveCheckBox.Name = "ObserveCheckBox";
-            ObserveCheckBox.Size = new Size(102, 19);
+            ObserveCheckBox.Size = new Size(75, 21);
             ObserveCheckBox.TabIndex = 17;
-            ObserveCheckBox.Text = "Allow Observe";
+            ObserveCheckBox.Text = "允许观察";
             ObserveCheckBox.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(25, 268);
+            label9.Location = new Point(25, 304);
             label9.Name = "label9";
-            label9.Size = new Size(134, 15);
+            label9.Size = new Size(68, 17);
             label9.TabIndex = 16;
-            label9.Text = "Max Resolution Allowed";
+            label9.Text = "最大分辨率";
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Location = new Point(0, 0);
             label8.Name = "label8";
-            label8.Size = new Size(38, 15);
+            label8.Size = new Size(43, 17);
             label8.TabIndex = 15;
             label8.Text = "label8";
             // 
             // Resolution_textbox
             // 
-            Resolution_textbox.Location = new Point(171, 266);
-            Resolution_textbox.Margin = new Padding(3, 4, 3, 4);
+            Resolution_textbox.Location = new Point(99, 301);
+            Resolution_textbox.Margin = new Padding(3, 5, 3, 5);
             Resolution_textbox.Name = "Resolution_textbox";
             Resolution_textbox.Size = new Size(93, 23);
             Resolution_textbox.TabIndex = 14;
@@ -579,89 +579,89 @@
             // AllowArcherCheckBox
             // 
             AllowArcherCheckBox.AutoSize = true;
-            AllowArcherCheckBox.Location = new Point(28, 210);
-            AllowArcherCheckBox.Margin = new Padding(3, 4, 3, 4);
+            AllowArcherCheckBox.Location = new Point(28, 238);
+            AllowArcherCheckBox.Margin = new Padding(3, 5, 3, 5);
             AllowArcherCheckBox.Name = "AllowArcherCheckBox";
-            AllowArcherCheckBox.Size = new Size(206, 19);
+            AllowArcherCheckBox.Size = new Size(135, 21);
             AllowArcherCheckBox.TabIndex = 13;
-            AllowArcherCheckBox.Text = "Allow Creation of the Archer Class";
+            AllowArcherCheckBox.Text = "允许创建弓箭手职业";
             AllowArcherCheckBox.UseVisualStyleBackColor = true;
             // 
             // AllowAssassinCheckBox
             // 
             AllowAssassinCheckBox.AutoSize = true;
-            AllowAssassinCheckBox.Location = new Point(28, 183);
-            AllowAssassinCheckBox.Margin = new Padding(3, 4, 3, 4);
+            AllowAssassinCheckBox.Location = new Point(28, 207);
+            AllowAssassinCheckBox.Margin = new Padding(3, 5, 3, 5);
             AllowAssassinCheckBox.Name = "AllowAssassinCheckBox";
-            AllowAssassinCheckBox.Size = new Size(215, 19);
+            AllowAssassinCheckBox.Size = new Size(123, 21);
             AllowAssassinCheckBox.TabIndex = 12;
-            AllowAssassinCheckBox.Text = "Allow Creation of the Assassin Class";
+            AllowAssassinCheckBox.Text = "允许创建刺客职业";
             AllowAssassinCheckBox.UseVisualStyleBackColor = true;
             // 
             // StartGameCheckBox
             // 
             StartGameCheckBox.AutoSize = true;
-            StartGameCheckBox.Location = new Point(28, 156);
-            StartGameCheckBox.Margin = new Padding(3, 4, 3, 4);
+            StartGameCheckBox.Location = new Point(28, 177);
+            StartGameCheckBox.Margin = new Padding(3, 5, 3, 5);
             StartGameCheckBox.Name = "StartGameCheckBox";
-            StartGameCheckBox.Size = new Size(245, 19);
+            StartGameCheckBox.Size = new Size(147, 21);
             StartGameCheckBox.TabIndex = 11;
-            StartGameCheckBox.Text = "Allow Characters to Login to Game World";
+            StartGameCheckBox.Text = "允许角色登录游戏世界";
             StartGameCheckBox.UseVisualStyleBackColor = true;
             // 
             // DCharacterCheckBox
             // 
             DCharacterCheckBox.AutoSize = true;
-            DCharacterCheckBox.Location = new Point(28, 129);
-            DCharacterCheckBox.Margin = new Padding(3, 4, 3, 4);
+            DCharacterCheckBox.Location = new Point(28, 146);
+            DCharacterCheckBox.Margin = new Padding(3, 5, 3, 5);
             DCharacterCheckBox.Name = "DCharacterCheckBox";
-            DCharacterCheckBox.Size = new Size(157, 19);
+            DCharacterCheckBox.Size = new Size(99, 21);
             DCharacterCheckBox.TabIndex = 10;
-            DCharacterCheckBox.Text = "Allow Character Deletion";
+            DCharacterCheckBox.Text = "允许删除角色";
             DCharacterCheckBox.UseVisualStyleBackColor = true;
             // 
             // NCharacterCheckBox
             // 
             NCharacterCheckBox.AutoSize = true;
-            NCharacterCheckBox.Location = new Point(28, 103);
-            NCharacterCheckBox.Margin = new Padding(3, 4, 3, 4);
+            NCharacterCheckBox.Location = new Point(28, 117);
+            NCharacterCheckBox.Margin = new Padding(3, 5, 3, 5);
             NCharacterCheckBox.Name = "NCharacterCheckBox";
-            NCharacterCheckBox.Size = new Size(185, 19);
+            NCharacterCheckBox.Size = new Size(111, 21);
             NCharacterCheckBox.TabIndex = 9;
-            NCharacterCheckBox.Text = "Allow New Character Creation";
+            NCharacterCheckBox.Text = "允许创建新角色";
             NCharacterCheckBox.UseVisualStyleBackColor = true;
             // 
             // LoginCheckBox
             // 
             LoginCheckBox.AutoSize = true;
-            LoginCheckBox.Location = new Point(28, 76);
-            LoginCheckBox.Margin = new Padding(3, 4, 3, 4);
+            LoginCheckBox.Location = new Point(28, 86);
+            LoginCheckBox.Margin = new Padding(3, 5, 3, 5);
             LoginCheckBox.Name = "LoginCheckBox";
-            LoginCheckBox.Size = new Size(158, 19);
+            LoginCheckBox.Size = new Size(99, 21);
             LoginCheckBox.TabIndex = 8;
-            LoginCheckBox.Text = "Allow Accounts To Login";
+            LoginCheckBox.Text = "允许账户登录";
             LoginCheckBox.UseVisualStyleBackColor = true;
             // 
             // PasswordCheckBox
             // 
             PasswordCheckBox.AutoSize = true;
-            PasswordCheckBox.Location = new Point(28, 50);
-            PasswordCheckBox.Margin = new Padding(3, 4, 3, 4);
+            PasswordCheckBox.Location = new Point(28, 57);
+            PasswordCheckBox.Margin = new Padding(3, 5, 3, 5);
             PasswordCheckBox.Name = "PasswordCheckBox";
-            PasswordCheckBox.Size = new Size(230, 19);
+            PasswordCheckBox.Size = new Size(159, 21);
             PasswordCheckBox.TabIndex = 7;
-            PasswordCheckBox.Text = "Allow Users To Change Their Password";
+            PasswordCheckBox.Text = "允许用户更改他们的密码";
             PasswordCheckBox.UseVisualStyleBackColor = true;
             // 
             // AccountCheckBox
             // 
             AccountCheckBox.AutoSize = true;
-            AccountCheckBox.Location = new Point(28, 23);
-            AccountCheckBox.Margin = new Padding(3, 4, 3, 4);
+            AccountCheckBox.Location = new Point(28, 26);
+            AccountCheckBox.Margin = new Padding(3, 5, 3, 5);
             AccountCheckBox.Name = "AccountCheckBox";
-            AccountCheckBox.Size = new Size(179, 19);
+            AccountCheckBox.Size = new Size(111, 21);
             AccountCheckBox.TabIndex = 6;
-            AccountCheckBox.Text = "Allow New Account Creation";
+            AccountCheckBox.Text = "允许创建新账户";
             AccountCheckBox.UseVisualStyleBackColor = true;
             // 
             // tabPage4
@@ -669,28 +669,28 @@
             tabPage4.Controls.Add(label12);
             tabPage4.Controls.Add(SaveDelayTextBox);
             tabPage4.Controls.Add(label6);
-            tabPage4.Location = new Point(4, 24);
-            tabPage4.Margin = new Padding(3, 4, 3, 4);
+            tabPage4.Location = new Point(4, 26);
+            tabPage4.Margin = new Padding(3, 5, 3, 5);
             tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3, 4, 3, 4);
-            tabPage4.Size = new Size(476, 348);
+            tabPage4.Padding = new Padding(3, 5, 3, 5);
+            tabPage4.Size = new Size(476, 396);
             tabPage4.TabIndex = 3;
-            tabPage4.Text = "Database";
+            tabPage4.Text = "数据";
             tabPage4.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(219, 23);
+            label12.Location = new Point(219, 26);
             label12.Name = "label12";
-            label12.Size = new Size(50, 15);
+            label12.Size = new Size(20, 17);
             label12.TabIndex = 26;
-            label12.Text = "minutes";
+            label12.Text = "分";
             // 
             // SaveDelayTextBox
             // 
-            SaveDelayTextBox.Location = new Point(104, 19);
-            SaveDelayTextBox.Margin = new Padding(3, 4, 3, 4);
+            SaveDelayTextBox.Location = new Point(104, 22);
+            SaveDelayTextBox.Margin = new Padding(3, 5, 3, 5);
             SaveDelayTextBox.MaxLength = 5;
             SaveDelayTextBox.Name = "SaveDelayTextBox";
             SaveDelayTextBox.Size = new Size(108, 23);
@@ -700,22 +700,22 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(21, 23);
+            label6.Location = new Point(39, 26);
             label6.Name = "label6";
-            label6.Size = new Size(66, 15);
+            label6.Size = new Size(59, 17);
             label6.TabIndex = 24;
-            label6.Text = "Save Delay:";
+            label6.Text = "保存延迟:";
             // 
             // tabPage6
             // 
             tabPage6.Controls.Add(gbRestedExpRates);
             tabPage6.Controls.Add(gbGlobals);
-            tabPage6.Location = new Point(4, 24);
+            tabPage6.Location = new Point(4, 26);
             tabPage6.Name = "tabPage6";
             tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(476, 348);
+            tabPage6.Size = new Size(476, 396);
             tabPage6.TabIndex = 5;
-            tabPage6.Text = "Rates";
+            tabPage6.Text = "几率";
             tabPage6.UseVisualStyleBackColor = true;
             // 
             // gbRestedExpRates
@@ -732,9 +732,9 @@
             gbRestedExpRates.Controls.Add(lblRestedExpBonus);
             gbRestedExpRates.Controls.Add(lblRestedBuffLength);
             gbRestedExpRates.Controls.Add(lblPeriod);
-            gbRestedExpRates.Location = new Point(17, 133);
+            gbRestedExpRates.Location = new Point(17, 151);
             gbRestedExpRates.Name = "gbRestedExpRates";
-            gbRestedExpRates.Size = new Size(228, 150);
+            gbRestedExpRates.Size = new Size(228, 170);
             gbRestedExpRates.TabIndex = 8;
             gbRestedExpRates.TabStop = false;
             gbRestedExpRates.Text = "Rested exp";
@@ -742,42 +742,42 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(158, 88);
+            label22.Location = new Point(158, 100);
             label22.Name = "label22";
-            label22.Size = new Size(17, 15);
+            label22.Size = new Size(19, 17);
             label22.TabIndex = 12;
             label22.Text = "%";
             // 
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(158, 121);
+            label23.Location = new Point(158, 137);
             label23.Name = "label23";
-            label23.Size = new Size(12, 15);
+            label23.Size = new Size(14, 17);
             label23.TabIndex = 12;
             label23.Text = "x";
             // 
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(158, 55);
+            label21.Location = new Point(158, 62);
             label21.Name = "label21";
-            label21.Size = new Size(33, 15);
+            label21.Size = new Size(20, 17);
             label21.TabIndex = 12;
-            label21.Text = "mins";
+            label21.Text = "分";
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(158, 25);
+            label20.Location = new Point(158, 28);
             label20.Name = "label20";
-            label20.Size = new Size(33, 15);
+            label20.Size = new Size(20, 17);
             label20.TabIndex = 12;
-            label20.Text = "mins";
+            label20.Text = "分";
             // 
             // tbRestedPeriod
             // 
-            tbRestedPeriod.Location = new Point(96, 21);
+            tbRestedPeriod.Location = new Point(96, 24);
             tbRestedPeriod.Name = "tbRestedPeriod";
             tbRestedPeriod.Size = new Size(56, 23);
             tbRestedPeriod.TabIndex = 11;
@@ -785,7 +785,7 @@
             // 
             // tbRestedBuffLength
             // 
-            tbRestedBuffLength.Location = new Point(96, 51);
+            tbRestedBuffLength.Location = new Point(96, 58);
             tbRestedBuffLength.Name = "tbRestedBuffLength";
             tbRestedBuffLength.Size = new Size(56, 23);
             tbRestedBuffLength.TabIndex = 11;
@@ -793,7 +793,7 @@
             // 
             // tbMaxRestedBonus
             // 
-            tbMaxRestedBonus.Location = new Point(96, 118);
+            tbMaxRestedBonus.Location = new Point(96, 134);
             tbMaxRestedBonus.Name = "tbMaxRestedBonus";
             tbMaxRestedBonus.Size = new Size(56, 23);
             tbMaxRestedBonus.TabIndex = 11;
@@ -801,7 +801,7 @@
             // 
             // tbRestedExpBonus
             // 
-            tbRestedExpBonus.Location = new Point(96, 85);
+            tbRestedExpBonus.Location = new Point(96, 96);
             tbRestedExpBonus.Name = "tbRestedExpBonus";
             tbRestedExpBonus.Size = new Size(56, 23);
             tbRestedExpBonus.TabIndex = 11;
@@ -810,38 +810,38 @@
             // lblMaxRestedBonus
             // 
             lblMaxRestedBonus.AutoSize = true;
-            lblMaxRestedBonus.Location = new Point(13, 121);
+            lblMaxRestedBonus.Location = new Point(26, 137);
             lblMaxRestedBonus.Name = "lblMaxRestedBonus";
-            lblMaxRestedBonus.Size = new Size(68, 15);
+            lblMaxRestedBonus.Size = new Size(59, 17);
             lblMaxRestedBonus.TabIndex = 0;
-            lblMaxRestedBonus.Text = "Max bonus:";
+            lblMaxRestedBonus.Text = "最高奖金:";
             // 
             // lblRestedExpBonus
             // 
             lblRestedExpBonus.AutoSize = true;
-            lblRestedExpBonus.Location = new Point(13, 88);
+            lblRestedExpBonus.Location = new Point(29, 100);
             lblRestedExpBonus.Name = "lblRestedExpBonus";
-            lblRestedExpBonus.Size = new Size(64, 15);
+            lblRestedExpBonus.Size = new Size(59, 17);
             lblRestedExpBonus.TabIndex = 0;
-            lblRestedExpBonus.Text = "Exp bonus:";
+            lblRestedExpBonus.Text = "经验奖励:";
             // 
             // lblRestedBuffLength
             // 
             lblRestedBuffLength.AutoSize = true;
-            lblRestedBuffLength.Location = new Point(13, 55);
+            lblRestedBuffLength.Location = new Point(7, 61);
             lblRestedBuffLength.Name = "lblRestedBuffLength";
-            lblRestedBuffLength.Size = new Size(69, 15);
+            lblRestedBuffLength.Size = new Size(83, 17);
             lblRestedBuffLength.TabIndex = 0;
-            lblRestedBuffLength.Text = "Buff length:";
+            lblRestedBuffLength.Text = "增益持续时间:";
             // 
             // lblPeriod
             // 
             lblPeriod.AutoSize = true;
-            lblPeriod.Location = new Point(13, 24);
+            lblPeriod.Location = new Point(50, 27);
             lblPeriod.Name = "lblPeriod";
-            lblPeriod.Size = new Size(44, 15);
+            lblPeriod.Size = new Size(35, 17);
             lblPeriod.TabIndex = 0;
-            lblPeriod.Text = "Period:";
+            lblPeriod.Text = "时期:";
             // 
             // gbGlobals
             // 
@@ -851,28 +851,28 @@
             gbGlobals.Controls.Add(lblDropRate);
             gbGlobals.Controls.Add(expRateInput);
             gbGlobals.Controls.Add(lblExpRate);
-            gbGlobals.Location = new Point(17, 18);
+            gbGlobals.Location = new Point(17, 20);
             gbGlobals.Name = "gbGlobals";
-            gbGlobals.Size = new Size(228, 100);
+            gbGlobals.Size = new Size(228, 113);
             gbGlobals.TabIndex = 7;
             gbGlobals.TabStop = false;
-            gbGlobals.Text = "Globals";
+            gbGlobals.Text = "全局";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(139, 63);
+            label19.Location = new Point(139, 71);
             label19.Name = "label19";
-            label19.Size = new Size(12, 15);
+            label19.Size = new Size(14, 17);
             label19.TabIndex = 11;
             label19.Text = "x";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(139, 24);
+            label18.Location = new Point(139, 27);
             label18.Name = "label18";
-            label18.Size = new Size(12, 15);
+            label18.Size = new Size(14, 17);
             label18.TabIndex = 12;
             label18.Text = "x";
             // 
@@ -880,7 +880,7 @@
             // 
             dropRateInput.DecimalPlaces = 2;
             dropRateInput.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
-            dropRateInput.Location = new Point(82, 61);
+            dropRateInput.Location = new Point(82, 69);
             dropRateInput.Name = "dropRateInput";
             dropRateInput.Size = new Size(51, 23);
             dropRateInput.TabIndex = 9;
@@ -888,17 +888,17 @@
             // lblDropRate
             // 
             lblDropRate.AutoSize = true;
-            lblDropRate.Location = new Point(13, 63);
+            lblDropRate.Location = new Point(41, 71);
             lblDropRate.Name = "lblDropRate";
-            lblDropRate.Size = new Size(59, 15);
+            lblDropRate.Size = new Size(35, 17);
             lblDropRate.TabIndex = 7;
-            lblDropRate.Text = "Drop rate:";
+            lblDropRate.Text = "爆率:";
             // 
             // expRateInput
             // 
             expRateInput.DecimalPlaces = 2;
             expRateInput.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
-            expRateInput.Location = new Point(82, 22);
+            expRateInput.Location = new Point(82, 25);
             expRateInput.Name = "expRateInput";
             expRateInput.Size = new Size(51, 23);
             expRateInput.TabIndex = 10;
@@ -906,11 +906,11 @@
             // lblExpRate
             // 
             lblExpRate.AutoSize = true;
-            lblExpRate.Location = new Point(13, 24);
+            lblExpRate.Location = new Point(29, 27);
             lblExpRate.Name = "lblExpRate";
-            lblExpRate.Size = new Size(51, 15);
+            lblExpRate.Size = new Size(47, 17);
             lblExpRate.TabIndex = 8;
-            lblExpRate.Text = "Exp rate:";
+            lblExpRate.Text = "经验率:";
             // 
             // tabPage5
             // 
@@ -920,28 +920,28 @@
             tabPage5.Controls.Add(gameMasterEffect_CheckBox);
             tabPage5.Controls.Add(SafeZoneHealingCheckBox);
             tabPage5.Controls.Add(SafeZoneBorderCheckBox);
-            tabPage5.Location = new Point(4, 24);
-            tabPage5.Margin = new Padding(3, 4, 3, 4);
+            tabPage5.Location = new Point(4, 26);
+            tabPage5.Margin = new Padding(3, 5, 3, 5);
             tabPage5.Name = "tabPage5";
-            tabPage5.Padding = new Padding(3, 4, 3, 4);
-            tabPage5.Size = new Size(476, 348);
+            tabPage5.Padding = new Padding(3, 5, 3, 5);
+            tabPage5.Size = new Size(476, 396);
             tabPage5.TabIndex = 4;
-            tabPage5.Text = "Optional";
+            tabPage5.Text = "可选";
             tabPage5.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(229, 105);
+            label16.Location = new Point(166, 120);
             label16.Name = "label16";
-            label16.Size = new Size(50, 15);
+            label16.Size = new Size(20, 17);
             label16.TabIndex = 29;
-            label16.Text = "minutes";
+            label16.Text = "分";
             // 
             // lineMessageTimeTextBox
             // 
-            lineMessageTimeTextBox.Location = new Point(183, 103);
-            lineMessageTimeTextBox.Margin = new Padding(3, 4, 3, 4);
+            lineMessageTimeTextBox.Location = new Point(120, 117);
+            lineMessageTimeTextBox.Margin = new Padding(3, 5, 3, 5);
             lineMessageTimeTextBox.MaxLength = 5;
             lineMessageTimeTextBox.Name = "lineMessageTimeTextBox";
             lineMessageTimeTextBox.Size = new Size(41, 23);
@@ -951,44 +951,44 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(25, 105);
+            label17.Location = new Point(28, 120);
             label17.Name = "label17";
-            label17.Size = new Size(142, 15);
+            label17.Size = new Size(86, 17);
             label17.TabIndex = 27;
-            label17.Text = "Line Message Frequency :";
+            label17.Text = "Line消息频率 :";
             // 
             // gameMasterEffect_CheckBox
             // 
             gameMasterEffect_CheckBox.AutoSize = true;
-            gameMasterEffect_CheckBox.Location = new Point(28, 76);
-            gameMasterEffect_CheckBox.Margin = new Padding(3, 4, 3, 4);
+            gameMasterEffect_CheckBox.Location = new Point(28, 86);
+            gameMasterEffect_CheckBox.Margin = new Padding(3, 5, 3, 5);
             gameMasterEffect_CheckBox.Name = "gameMasterEffect_CheckBox";
-            gameMasterEffect_CheckBox.Size = new Size(129, 19);
+            gameMasterEffect_CheckBox.Size = new Size(72, 21);
             gameMasterEffect_CheckBox.TabIndex = 2;
-            gameMasterEffect_CheckBox.Text = "Game Master Effect";
+            gameMasterEffect_CheckBox.Text = "GM特效";
             gameMasterEffect_CheckBox.UseVisualStyleBackColor = true;
             // 
             // SafeZoneHealingCheckBox
             // 
             SafeZoneHealingCheckBox.AutoSize = true;
-            SafeZoneHealingCheckBox.Location = new Point(28, 50);
-            SafeZoneHealingCheckBox.Margin = new Padding(3, 4, 3, 4);
+            SafeZoneHealingCheckBox.Location = new Point(28, 57);
+            SafeZoneHealingCheckBox.Margin = new Padding(3, 5, 3, 5);
             SafeZoneHealingCheckBox.Name = "SafeZoneHealingCheckBox";
-            SafeZoneHealingCheckBox.Size = new Size(197, 19);
+            SafeZoneHealingCheckBox.Size = new Size(195, 21);
             SafeZoneHealingCheckBox.TabIndex = 1;
-            SafeZoneHealingCheckBox.Text = "Enable auto-healing in SafeZone";
+            SafeZoneHealingCheckBox.Text = "在安全区域中启用自动修复功能";
             SafeZoneHealingCheckBox.UseVisualStyleBackColor = true;
             SafeZoneHealingCheckBox.CheckedChanged += SafeZoneHealingCheckBox_CheckedChanged;
             // 
             // SafeZoneBorderCheckBox
             // 
             SafeZoneBorderCheckBox.AutoSize = true;
-            SafeZoneBorderCheckBox.Location = new Point(28, 23);
-            SafeZoneBorderCheckBox.Margin = new Padding(3, 4, 3, 4);
+            SafeZoneBorderCheckBox.Location = new Point(28, 26);
+            SafeZoneBorderCheckBox.Margin = new Padding(3, 5, 3, 5);
             SafeZoneBorderCheckBox.Name = "SafeZoneBorderCheckBox";
-            SafeZoneBorderCheckBox.Size = new Size(150, 19);
+            SafeZoneBorderCheckBox.Size = new Size(111, 21);
             SafeZoneBorderCheckBox.TabIndex = 0;
-            SafeZoneBorderCheckBox.Text = "Show SafeZone Borders";
+            SafeZoneBorderCheckBox.Text = "显示安全区边界";
             SafeZoneBorderCheckBox.UseVisualStyleBackColor = true;
             SafeZoneBorderCheckBox.CheckedChanged += SafeZoneBorderCheckBox_CheckedChanged;
             // 
@@ -1000,12 +1000,12 @@
             // 
             // ConfigForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(512, 430);
+            ClientSize = new Size(512, 487);
             Controls.Add(SaveButton);
             Controls.Add(configTabs);
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(3, 5, 3, 5);
             Name = "ConfigForm";
             Text = "Server Config Form";
             FormClosed += ConfigForm_FormClosed;
