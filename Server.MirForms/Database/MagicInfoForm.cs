@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 
 namespace Server
@@ -170,7 +170,7 @@ namespace Server
             // 
             MagiclistBox.Dock = DockStyle.Left;
             MagiclistBox.FormattingEnabled = true;
-            MagiclistBox.ItemHeight = 15;
+            MagiclistBox.ItemHeight = 17;
             MagiclistBox.Location = new Point(0, 0);
             MagiclistBox.Name = "MagiclistBox";
             MagiclistBox.Size = new Size(225, 542);
@@ -202,35 +202,35 @@ namespace Server
             tabPage1.Controls.Add(txtSkillIcon);
             tabPage1.Controls.Add(label1);
             tabPage1.Controls.Add(lblBookValid);
-            tabPage1.Location = new Point(4, 24);
+            tabPage1.Location = new Point(4, 26);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(694, 514);
+            tabPage1.Size = new Size(694, 512);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Basics";
+            tabPage1.Text = "基本信息";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(20, 23);
+            label24.Location = new Point(17, 27);
             label24.Name = "label24";
-            label24.Size = new Size(63, 15);
+            label24.Size = new Size(59, 17);
             label24.TabIndex = 12;
-            label24.Text = "SkillName:";
+            label24.Text = "技能名称:";
             // 
             // label23
             // 
             label23.AutoSize = true;
             label23.Location = new Point(181, 3);
             label23.Name = "label23";
-            label23.Size = new Size(37, 15);
+            label23.Size = new Size(35, 17);
             label23.TabIndex = 11;
-            label23.Text = "book:";
+            label23.Text = "书籍:";
             // 
             // textBoxName
             // 
-            textBoxName.Location = new Point(89, 18);
+            textBoxName.Location = new Point(85, 24);
             textBoxName.Name = "textBoxName";
             textBoxName.Size = new Size(112, 23);
             textBoxName.TabIndex = 10;
@@ -241,27 +241,27 @@ namespace Server
             lblDamageExample.AutoSize = true;
             lblDamageExample.Location = new Point(11, 394);
             lblDamageExample.Name = "lblDamageExample";
-            lblDamageExample.Size = new Size(98, 15);
+            lblDamageExample.Size = new Size(56, 17);
             lblDamageExample.TabIndex = 0;
-            lblDamageExample.Text = "Damage example";
+            lblDamageExample.Text = "伤害示例";
             // 
             // lblDamageExplained
             // 
             lblDamageExplained.AutoSize = true;
             lblDamageExplained.Location = new Point(11, 366);
             lblDamageExplained.Name = "lblDamageExplained";
-            lblDamageExplained.Size = new Size(54, 15);
+            lblDamageExplained.Size = new Size(35, 17);
             lblDamageExplained.TabIndex = 9;
-            lblDamageExplained.Text = "Damage:";
+            lblDamageExplained.Text = "伤害:";
             // 
             // lblSelected
             // 
             lblSelected.AutoSize = true;
             lblSelected.Location = new Point(20, 3);
             lblSelected.Name = "lblSelected";
-            lblSelected.Size = new Size(80, 15);
+            lblSelected.Size = new Size(75, 17);
             lblSelected.TabIndex = 8;
-            lblSelected.Text = "Selected skill: ";
+            lblSelected.Text = "已选择技能: ";
             // 
             // panel4
             // 
@@ -305,20 +305,20 @@ namespace Server
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(12, 160);
+            label21.Location = new Point(58, 160);
             label21.Name = "label21";
-            label21.Size = new Size(178, 15);
+            label21.Size = new Size(104, 17);
             label21.TabIndex = 12;
-            label21.Text = "Damage multiplyer boost/skilllvl";
+            label21.Text = "每级伤害倍数提升";
             // 
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(12, 134);
+            label22.Location = new Point(82, 134);
             label22.Name = "label22";
-            label22.Size = new Size(135, 15);
+            label22.Size = new Size(80, 17);
             label22.TabIndex = 11;
-            label22.Text = "Damage multiplyer base";
+            label22.Text = "基础伤害倍数";
             // 
             // txtDmgBonusMax
             // 
@@ -341,20 +341,20 @@ namespace Server
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(12, 108);
+            label18.Location = new Point(63, 108);
             label18.Name = "label18";
-            label18.Size = new Size(154, 15);
+            label18.Size = new Size(99, 17);
             label18.TabIndex = 8;
-            label18.Text = "Maximum skill lvl 3 damage";
+            label18.Text = "技能3级最大伤害";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(12, 82);
+            label19.Location = new Point(60, 82);
             label19.Name = "label19";
-            label19.Size = new Size(156, 15);
+            label19.Size = new Size(102, 17);
             label19.TabIndex = 7;
-            label19.Text = "Minimum skill lvl 3 damage:";
+            label19.Text = "技能3级最小伤害:";
             // 
             // txtDmgBaseMax
             // 
@@ -377,29 +377,29 @@ namespace Server
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(12, 56);
+            label17.Location = new Point(82, 56);
             label17.Name = "label17";
-            label17.Size = new Size(134, 15);
+            label17.Size = new Size(80, 17);
             label17.TabIndex = 2;
-            label17.Text = "Maximum base damage";
+            label17.Text = "最大基础伤害";
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(12, 30);
+            label16.Location = new Point(79, 30);
             label16.Name = "label16";
-            label16.Size = new Size(136, 15);
+            label16.Size = new Size(83, 17);
             label16.TabIndex = 1;
-            label16.Text = "Minimum base damage:";
+            label16.Text = "最小基础伤害:";
             // 
             // label15
             // 
             label15.AutoSize = true;
             label15.Location = new Point(5, 8);
             label15.Name = "label15";
-            label15.Size = new Size(95, 15);
+            label15.Size = new Size(56, 17);
             label15.TabIndex = 0;
-            label15.Text = "Damage settings";
+            label15.Text = "伤害设置";
             // 
             // panel3
             // 
@@ -420,11 +420,11 @@ namespace Server
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(12, 77);
+            label20.Location = new Point(32, 77);
             label20.Name = "label20";
-            label20.Size = new Size(103, 15);
+            label20.Size = new Size(83, 17);
             label20.TabIndex = 15;
-            label20.Text = "Range (0 No limit)";
+            label20.Text = "范围(0无限制)";
             // 
             // txtRange
             // 
@@ -455,29 +455,29 @@ namespace Server
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(12, 50);
+            label14.Location = new Point(59, 50);
             label14.Name = "label14";
-            label14.Size = new Size(112, 15);
+            label14.Size = new Size(56, 17);
             label14.TabIndex = 2;
-            label14.Text = "Decrease / skill level";
+            label14.Text = "每级减少";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(12, 25);
+            label13.Location = new Point(59, 25);
             label13.Name = "label13";
-            label13.Size = new Size(62, 15);
+            label13.Size = new Size(56, 17);
             label13.TabIndex = 1;
-            label13.Text = "Base delay";
+            label13.Text = "基础延迟";
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Location = new Point(12, 8);
             label12.Name = "label12";
-            label12.Size = new Size(129, 15);
+            label12.Size = new Size(64, 17);
             label12.TabIndex = 0;
-            label12.Text = "Delay (in milliseconds!)";
+            label12.Text = "延迟(毫秒)";
             // 
             // panel2
             // 
@@ -513,29 +513,29 @@ namespace Server
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(12, 50);
+            label11.Location = new Point(54, 50);
             label11.Name = "label11";
-            label11.Size = new Size(126, 15);
+            label11.Size = new Size(75, 17);
             label11.TabIndex = 2;
-            label11.Text = "MP increase each level";
+            label11.Text = "每级MP增加";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(12, 25);
+            label10.Location = new Point(54, 25);
             label10.Name = "label10";
-            label10.Size = new Size(86, 15);
+            label10.Size = new Size(75, 17);
             label10.TabIndex = 1;
-            label10.Text = "Base mp usage";
+            label10.Text = "基础MP消耗";
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Location = new Point(12, 6);
             label9.Name = "label9";
-            label9.Size = new Size(59, 15);
+            label9.Size = new Size(51, 17);
             label9.TabIndex = 0;
-            label9.Text = "MP usage";
+            label9.Text = "MP消耗";
             // 
             // panel1
             // 
@@ -587,27 +587,27 @@ namespace Server
             label6.AutoSize = true;
             label6.Location = new Point(110, 75);
             label6.Name = "label6";
-            label6.Size = new Size(64, 15);
+            label6.Size = new Size(44, 17);
             label6.TabIndex = 9;
-            label6.Text = "Skill points";
+            label6.Text = "技能点";
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Location = new Point(110, 50);
             label7.Name = "label7";
-            label7.Size = new Size(64, 15);
+            label7.Size = new Size(44, 17);
             label7.TabIndex = 8;
-            label7.Text = "Skill points";
+            label7.Text = "技能点";
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Location = new Point(110, 25);
             label8.Name = "label8";
-            label8.Size = new Size(64, 15);
+            label8.Size = new Size(44, 17);
             label8.TabIndex = 7;
-            label8.Text = "Skill points";
+            label8.Text = "技能点";
             // 
             // txtSkillLvl3Req
             // 
@@ -638,40 +638,40 @@ namespace Server
             label5.AutoSize = true;
             label5.Location = new Point(13, 75);
             label5.Name = "label5";
-            label5.Size = new Size(40, 15);
+            label5.Size = new Size(39, 17);
             label5.TabIndex = 3;
-            label5.Text = "level 3";
+            label5.Text = "等级3";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(13, 50);
             label4.Name = "label4";
-            label4.Size = new Size(40, 15);
+            label4.Size = new Size(39, 17);
             label4.TabIndex = 2;
-            label4.Text = "level 2";
+            label4.Text = "等级2";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(13, 25);
             label3.Name = "label3";
-            label3.Size = new Size(40, 15);
+            label3.Size = new Size(39, 17);
             label3.TabIndex = 1;
-            label3.Text = "level 1";
+            label3.Text = "等级1";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(6, 6);
             label2.Name = "label2";
-            label2.Size = new Size(174, 15);
+            label2.Size = new Size(104, 17);
             label2.TabIndex = 0;
-            label2.Text = "Skill level increase requirements";
+            label2.Text = "技能等级提升需求";
             // 
             // txtSkillIcon
             // 
-            txtSkillIcon.Location = new Point(311, 20);
+            txtSkillIcon.Location = new Point(291, 24);
             txtSkillIcon.Name = "txtSkillIcon";
             txtSkillIcon.Size = new Size(41, 23);
             txtSkillIcon.TabIndex = 2;
@@ -680,20 +680,20 @@ namespace Server
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(250, 23);
+            label1.Location = new Point(222, 27);
             label1.Name = "label1";
-            label1.Size = new Size(60, 15);
+            label1.Size = new Size(63, 17);
             label1.TabIndex = 1;
-            label1.Text = "Skill icon: ";
+            label1.Text = "技能图标: ";
             // 
             // lblBookValid
             // 
             lblBookValid.AutoSize = true;
             lblBookValid.Location = new Point(222, 3);
             lblBookValid.Name = "lblBookValid";
-            lblBookValid.Size = new Size(112, 15);
+            lblBookValid.Size = new Size(80, 17);
             lblBookValid.TabIndex = 0;
-            lblBookValid.Text = "Searching for books";
+            lblBookValid.Text = "正在搜索书籍";
             // 
             // MagicSearchBox
             // 
@@ -711,7 +711,7 @@ namespace Server
             Controls.Add(tabControl1);
             Controls.Add(MagiclistBox);
             Name = "MagicInfoForm";
-            Text = "Magic Settings";
+            Text = "魔法设置";
             FormClosed += MagicInfoForm_FormClosed;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

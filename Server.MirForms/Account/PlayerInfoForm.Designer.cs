@@ -1,4 +1,4 @@
-﻿namespace Server
+namespace Server
 {
     partial class PlayerInfoForm
     {
@@ -799,7 +799,7 @@
             QuestInfoTab.Padding = new Padding(3);
             QuestInfoTab.Size = new Size(779, 443);
             QuestInfoTab.TabIndex = 1;
-            QuestInfoTab.Text = "Quest Info";
+            QuestInfoTab.Text = "任务信息";
             QuestInfoTab.UseVisualStyleBackColor = true;
             // 
             // QuestInfoListViewNF
@@ -816,17 +816,17 @@
             // 
             // QuestIndexHeader
             // 
-            QuestIndexHeader.Text = "Index";
+            QuestIndexHeader.Text = "索引";
             QuestIndexHeader.Width = 100;
             // 
             // QuestStatusHeader
             // 
-            QuestStatusHeader.Text = "Status";
+            QuestStatusHeader.Text = "状态";
             QuestStatusHeader.Width = 100;
             // 
             // QuestNameHeader
             // 
-            QuestNameHeader.Text = "Name";
+            QuestNameHeader.Text = "名称";
             QuestNameHeader.Width = 200;
             // 
             // ItemInfoTab
@@ -836,7 +836,7 @@
             ItemInfoTab.Name = "ItemInfoTab";
             ItemInfoTab.Size = new Size(779, 443);
             ItemInfoTab.TabIndex = 2;
-            ItemInfoTab.Text = "Item Info";
+            ItemInfoTab.Text = "物品信息";
             ItemInfoTab.UseVisualStyleBackColor = true;
             // 
             // PlayerItemInfoListViewNF
@@ -853,27 +853,27 @@
             // 
             // UIDHeader
             // 
-            UIDHeader.Text = "UID";
+            UIDHeader.Text = "ID";
             UIDHeader.Width = 100;
             // 
             // LocationHeader
             // 
-            LocationHeader.Text = "Location";
+            LocationHeader.Text = "位置";
             LocationHeader.Width = 150;
             // 
             // NameHeader
             // 
-            NameHeader.Text = "Name";
+            NameHeader.Text = "名称";
             NameHeader.Width = 150;
             // 
             // CountHeader
             // 
-            CountHeader.Text = "Count";
+            CountHeader.Text = "数量";
             CountHeader.Width = 80;
             // 
             // DurabilityHeader
             // 
-            DurabilityHeader.Text = "Durability";
+            DurabilityHeader.Text = "耐久度";
             DurabilityHeader.Width = 90;
             // 
             // MagicInfoTab
@@ -883,7 +883,7 @@
             MagicInfoTab.Name = "MagicInfoTab";
             MagicInfoTab.Size = new Size(779, 443);
             MagicInfoTab.TabIndex = 3;
-            MagicInfoTab.Text = "Magic Info";
+            MagicInfoTab.Text = "魔法信息";
             MagicInfoTab.UseVisualStyleBackColor = true;
             // 
             // MagicListViewNF
@@ -900,22 +900,22 @@
             // 
             // MagicNameHeader
             // 
-            MagicNameHeader.Text = "Spell Name";
+            MagicNameHeader.Text = "魔法名称";
             MagicNameHeader.Width = 150;
             // 
             // MagicLevelHeader
             // 
-            MagicLevelHeader.Text = "Level";
+            MagicLevelHeader.Text = "等级";
             MagicLevelHeader.Width = 50;
             // 
             // MagicExperienceHeader
             // 
-            MagicExperienceHeader.Text = "Experience";
+            MagicExperienceHeader.Text = "经验";
             MagicExperienceHeader.Width = 150;
             // 
             // Key
             // 
-            Key.Text = "Key";
+            Key.Text = "键值";
             Key.Width = 80;
             // 
             // PetInfoTab
@@ -925,7 +925,7 @@
             PetInfoTab.Name = "PetInfoTab";
             PetInfoTab.Size = new Size(779, 443);
             PetInfoTab.TabIndex = 4;
-            PetInfoTab.Text = "Pet Info";
+            PetInfoTab.Text = "宠物信息";
             PetInfoTab.UseVisualStyleBackColor = true;
             // 
             // PetView
@@ -942,20 +942,20 @@
             // 
             // PetName
             // 
-            PetName.Text = "Name";
+            PetName.Text = "名称";
             PetName.Width = 150;
             // 
             // Level
             // 
-            Level.Text = "Level";
+            Level.Text = "等级";
             // 
             // HP
             // 
-            HP.Text = "HP";
+            HP.Text = "生命值";
             // 
             // Location
             // 
-            Location.Text = "Location";
+            Location.Text = "位置";
             Location.Width = 240;
             // 
             // HeroInfoTab
@@ -968,7 +968,7 @@
             HeroInfoTab.Padding = new Padding(3);
             HeroInfoTab.Size = new Size(779, 443);
             HeroInfoTab.TabIndex = 5;
-            HeroInfoTab.Text = "Hero Info";
+            HeroInfoTab.Text = "英雄信息";
             HeroInfoTab.UseVisualStyleBackColor = true;
             // 
             // groupBox5

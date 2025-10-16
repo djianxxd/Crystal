@@ -205,7 +205,7 @@ namespace Server
             CreditOnlyBox.Name = "CreditOnlyBox";
             CreditOnlyBox.Size = new Size(63, 19);
             CreditOnlyBox.TabIndex = 118;
-            CreditOnlyBox.Text = "Credits";
+            CreditOnlyBox.Text = "仅信誉点";
             CreditOnlyBox.UseVisualStyleBackColor = true;
             CreditOnlyBox.CheckedChanged += CreditOnly_CheckedChanged;
             // 
@@ -347,13 +347,13 @@ namespace Server
             label4.Name = "label4";
             label4.Size = new Size(58, 15);
             label4.TabIndex = 106;
-            label4.Text = "Category:";
+            label4.Text = "分类:";
             // 
             // Class_combo
             // 
             Class_combo.DropDownStyle = ComboBoxStyle.DropDownList;
             Class_combo.FormattingEnabled = true;
-            Class_combo.Items.AddRange(new object[] { "All", "Warrior", "Assassin", "Taoist", "Wizard", "Archer" });
+            Class_combo.Items.AddRange(new object[] { "所有", "战士", "刺客", "道士", "法师", "弓箭手" });
             Class_combo.Location = new Point(100, 237);
             Class_combo.Margin = new Padding(4, 3, 4, 3);
             Class_combo.Name = "Class_combo";
@@ -373,7 +373,7 @@ namespace Server
             groupBox3.Size = new Size(312, 78);
             groupBox3.TabIndex = 105;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Gameshop Settings";
+            groupBox3.Text = "游戏商店设置";
             // 
             // label2
             // 
@@ -432,7 +432,7 @@ namespace Server
             // 
             SectionFilter_lb.DropDownStyle = ComboBoxStyle.DropDownList;
             SectionFilter_lb.FormattingEnabled = true;
-            SectionFilter_lb.Items.AddRange(new object[] { "All Items", "Top Items", "Sale Items", "New Items" });
+            SectionFilter_lb.Items.AddRange(new object[] { "所有物品", "热门物品", "特价物品", "新品" });
             SectionFilter_lb.Location = new Point(14, 32);
             SectionFilter_lb.Margin = new Padding(4, 3, 4, 3);
             SectionFilter_lb.Name = "SectionFilter_lb";
@@ -477,7 +477,7 @@ namespace Server
             // 
             GameShopSearchBox.Location = new Point(14, 88);
             GameShopSearchBox.Name = "GameShopSearchBox";
-            GameShopSearchBox.PlaceholderText = "Search...";
+            GameShopSearchBox.PlaceholderText = "搜索...";
             GameShopSearchBox.Size = new Size(234, 23);
             GameShopSearchBox.TabIndex = 114;
             GameShopSearchBox.TextChanged += GameShopSearchBox_TextChanged;

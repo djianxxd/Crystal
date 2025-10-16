@@ -1,4 +1,4 @@
-﻿namespace Server
+namespace Server
 {
     partial class ConfigForm
     {
@@ -1007,7 +1007,7 @@
             Controls.Add(configTabs);
             Margin = new Padding(3, 5, 3, 5);
             Name = "ConfigForm";
-            Text = "Server Config Form";
+            Text = "服务器配置表单";
             FormClosed += ConfigForm_FormClosed;
             configTabs.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

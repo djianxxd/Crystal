@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
@@ -490,21 +490,21 @@ namespace Server
             // 
             nPCsToolStripMenuItem.Name = "nPCsToolStripMenuItem";
             nPCsToolStripMenuItem.Size = new Size(156, 22);
-            nPCsToolStripMenuItem.Text = "NPCs";
+            nPCsToolStripMenuItem.Text = "NPC";
             nPCsToolStripMenuItem.Click += nPCsToolStripMenuItem_Click;
             // 
             // dropsToolStripMenuItem
             // 
             dropsToolStripMenuItem.Name = "dropsToolStripMenuItem";
             dropsToolStripMenuItem.Size = new Size(156, 22);
-            dropsToolStripMenuItem.Text = "Drops";
+            dropsToolStripMenuItem.Text = "掉落物";
             dropsToolStripMenuItem.Click += dropsToolStripMenuItem_Click;
             // 
             // lineMessageToolStripMenuItem
             // 
             lineMessageToolStripMenuItem.Name = "lineMessageToolStripMenuItem";
             lineMessageToolStripMenuItem.Size = new Size(156, 22);
-            lineMessageToolStripMenuItem.Text = "Line Message";
+            lineMessageToolStripMenuItem.Text = "公告消息";
             lineMessageToolStripMenuItem.Click += lineMessageToolStripMenuItem_Click;
             // 
             // accountToolStripMenuItem
@@ -782,7 +782,7 @@ namespace Server
             Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             Name = "SMain";
-            Text = "Legend of Mir 2 Server";
+            Text = "传奇2服务器";
             FormClosing += SMain_FormClosing;
             Load += SMain_Load;
             MainTabs.ResumeLayout(false);

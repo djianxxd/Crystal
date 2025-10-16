@@ -120,7 +120,7 @@ namespace Server
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(627, 304);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "信息";
+            this.tabPage1.Text = "基本信息";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // MonsterInfoPanel
@@ -434,7 +434,7 @@ namespace Server
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(20, 13);
             this.label8.TabIndex = 64;
-            this.label8.Text = "AI:";
+            this.label8.Text = "人工智能:";
             // 
             // AgilityTextBox
             // 

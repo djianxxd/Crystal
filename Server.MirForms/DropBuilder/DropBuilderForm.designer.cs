@@ -1159,7 +1159,7 @@
             this.labelItemOdds.Name = "labelItemOdds";
             this.labelItemOdds.Size = new System.Drawing.Size(52, 13);
             this.labelItemOdds.TabIndex = 7;
-            this.labelItemOdds.Text = "几率: 1 /";
+            this.labelItemOdds.Text = "几率: 1/";
             // 
             // textBoxMinLevel
             // 
@@ -1226,7 +1226,7 @@
             this.labelGoldOdds.Name = "labelGoldOdds";
             this.labelGoldOdds.Size = new System.Drawing.Size(52, 13);
             this.labelGoldOdds.TabIndex = 18;
-            this.labelGoldOdds.Text = "几率: 1 /";
+            this.labelGoldOdds.Text = "几率: 1/";
             // 
             // groupBoxGold
             // 

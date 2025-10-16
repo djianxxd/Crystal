@@ -1,4 +1,4 @@
-﻿using Server.MirEnvir;
+using Server.MirEnvir;
 
 namespace Server.MirForms.DropBuilder
 {
@@ -155,18 +155,18 @@ namespace Server.MirForms.DropBuilder
 
             tabControlSeperateItems_SelectedIndexChanged(tabControlSeperateItems, null);
             listBoxMonsters.SelectedIndex = 0;
-            labelMonsterList.Text = $"Monster Count: {Envir.MonsterInfoList.Count}";
+            labelMonsterList.Text = $"怪物数量: {Envir.MonsterInfoList.Count}";
         }
 
-        // Gets server data
+        // 获取服务器数据
         public Envir Envir => SMain.EditEnvir;
 
-        // Updates the drop file text
+        // 更新掉落文件文本
         private void UpdateDropFile()
         {
             textBoxDropList.Clear();
 
-            textBoxDropList.Text += $";Gold{Environment.NewLine}";
+            textBoxDropList.Text += $";金币{Environment.NewLine}";
             if (Gold != "0")
             {
                 textBoxDropList.Text += $"1/{GoldOdds} Gold {Gold}{Environment.NewLine}";
@@ -179,155 +179,155 @@ namespace Server.MirForms.DropBuilder
                 textBoxGoldOdds.Text = string.Empty;
             }
                 
-            textBoxDropList.Text += string.Format("{0};Weapons{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};武器{0}", Environment.NewLine);
             for (int i = 0; i < Weapon.Count; i++)
                 textBoxDropList.Text += $"{Weapon[i].Odds} {Weapon[i].Name} {Weapon[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Armours{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};盔甲{0}", Environment.NewLine);
             for (int i = 0; i < Armour.Count; i++)
                 textBoxDropList.Text += $"{Armour[i].Odds} {Armour[i].Name} {Armour[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Helmets{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};头盔{0}", Environment.NewLine);
             for (int i = 0; i < Helmet.Count; i++)
                 textBoxDropList.Text += $"{Helmet[i].Odds} {Helmet[i].Name} {Helmet[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Necklaces{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};项链{0}", Environment.NewLine);
             for (int i = 0; i < Necklace.Count; i++)
                 textBoxDropList.Text +=
                     $"{Necklace[i].Odds} {Necklace[i].Name} {Necklace[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Bracelets{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};手镯{0}", Environment.NewLine);
             for (int i = 0; i < Bracelet.Count; i++)
                 textBoxDropList.Text +=
                     $"{Bracelet[i].Odds} {Bracelet[i].Name} {Bracelet[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Rings{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};戒指{0}", Environment.NewLine);
             for (int i = 0; i < Ring.Count; i++)
                 textBoxDropList.Text += $"{Ring[i].Odds} {Ring[i].Name} {Ring[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Amulets{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};护身符{0}", Environment.NewLine);
             for (int i = 0; i < Amulet.Count; i++)
                 textBoxDropList.Text += $"{Amulet[i].Odds} {Amulet[i].Name} {Amulet[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Belts{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};腰带{0}", Environment.NewLine);
             for (int i = 0; i < Belt.Count; i++)
                 textBoxDropList.Text += $"{Belt[i].Odds} {Belt[i].Name} {Belt[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Boots{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};靴子{0}", Environment.NewLine);
             for (int i = 0; i < Boot.Count; i++)
                 textBoxDropList.Text += $"{Boot[i].Odds} {Boot[i].Name} {Boot[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Stones{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};石头{0}", Environment.NewLine);
             for (int i = 0; i < Stone.Count; i++)
                 textBoxDropList.Text += $"{Stone[i].Odds} {Stone[i].Name} {Stone[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Torches{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};火把{0}", Environment.NewLine);
             for (int i = 0; i < Torch.Count; i++)
                 textBoxDropList.Text += $"{Torch[i].Odds} {Torch[i].Name} {Torch[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Potions{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};药水{0}", Environment.NewLine);
             for (int i = 0; i < Potion.Count; i++)
                 textBoxDropList.Text += $"{Potion[i].Odds} {Potion[i].Name} {Potion[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Ores{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};矿石{0}", Environment.NewLine);
             for (int i = 0; i < Ore.Count; i++)
                 textBoxDropList.Text += $"{Ore[i].Odds} {Ore[i].Name} {Ore[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Meat{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};肉类{0}", Environment.NewLine);
             for (int i = 0; i < Meat.Count; i++)
                 textBoxDropList.Text += $"{Meat[i].Odds} {Meat[i].Name} {Meat[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Crafting Materials{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};制作材料{0}", Environment.NewLine);
             for (int i = 0; i < CraftingMaterial.Count; i++)
                 textBoxDropList.Text +=
                     $"{CraftingMaterial[i].Odds} {CraftingMaterial[i].Name} {CraftingMaterial[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Scrolls{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};卷轴{0}", Environment.NewLine);
             for (int i = 0; i < Scrolls.Count; i++)
                 textBoxDropList.Text += $"{Scrolls[i].Odds} {Scrolls[i].Name} {Scrolls[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Gems{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};宝石{0}", Environment.NewLine);
             for (int i = 0; i < Gem.Count; i++)
                 textBoxDropList.Text += $"{Gem[i].Odds} {Gem[i].Name} {Gem[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Mount{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};坐骑{0}", Environment.NewLine);
             for (int i = 0; i < Mount.Count; i++)
                 textBoxDropList.Text += $"{Mount[i].Odds} {Mount[i].Name} {Mount[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Books{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};书籍{0}", Environment.NewLine);
             for (int i = 0; i < Book.Count; i++)
                 textBoxDropList.Text += $"{Book[i].Odds} {Book[i].Name} {Book[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Nothing{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};无掉落{0}", Environment.NewLine);
             for (int i = 0; i < Nothing.Count; i++)
                 textBoxDropList.Text += $"{Nothing[i].Odds} {Nothing[i].Name} {Nothing[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Script{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};脚本{0}", Environment.NewLine);
             for (int i = 0; i < Script.Count; i++)
                 textBoxDropList.Text += $"{Script[i].Odds} {Script[i].Name} {Script[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Reins{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};缰绳{0}", Environment.NewLine);
             for (int i = 0; i < Reins.Count; i++)
                 textBoxDropList.Text += $"{Reins[i].Odds} {Reins[i].Name} {Reins[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Bells{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};铃铛{0}", Environment.NewLine);
             for (int i = 0; i < Bells.Count; i++)
                 textBoxDropList.Text += $"{Bells[i].Odds} {Bells[i].Name} {Bells[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Saddle{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};马鞍{0}", Environment.NewLine);
             for (int i = 0; i < Saddle.Count; i++)
                 textBoxDropList.Text += $"{Saddle[i].Odds} {Saddle[i].Name} {Saddle[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Ribbon{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};丝带{0}", Environment.NewLine);
             for (int i = 0; i < Ribbon.Count; i++)
                 textBoxDropList.Text += $"{Ribbon[i].Odds} {Ribbon[i].Name} {Ribbon[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Mask{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};面具{0}", Environment.NewLine);
             for (int i = 0; i < Mask.Count; i++)
                 textBoxDropList.Text += $"{Mask[i].Odds} {Mask[i].Name} {Mask[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Food{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};食物{0}", Environment.NewLine);
             for (int i = 0; i < Food.Count; i++)
                 textBoxDropList.Text += $"{Food[i].Odds} {Food[i].Name} {Food[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Hook{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};鱼钩{0}", Environment.NewLine);
             for (int i = 0; i < Hook.Count; i++)
                 textBoxDropList.Text += $"{Hook[i].Odds} {Hook[i].Name} {Hook[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Float{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};浮标{0}", Environment.NewLine);
             for (int i = 0; i < Float.Count; i++)
                 textBoxDropList.Text += $"{Float[i].Odds} {Float[i].Name} {Float[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Bait{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};鱼饵{0}", Environment.NewLine);
             for (int i = 0; i < Bait.Count; i++)
                 textBoxDropList.Text += $"{Bait[i].Odds} {Bait[i].Name} {Bait[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Finder{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};探测器{0}", Environment.NewLine);
             for (int i = 0; i < Finder.Count; i++)
                 textBoxDropList.Text += $"{Finder[i].Odds} {Finder[i].Name} {Finder[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Reel{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};鱼线轮{0}", Environment.NewLine);
             for (int i = 0; i < Reel.Count; i++)
                 textBoxDropList.Text += $"{Reel[i].Odds} {Reel[i].Name} {Reel[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Fish{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};鱼类{0}", Environment.NewLine);
             for (int i = 0; i < Fish.Count; i++)
                 textBoxDropList.Text += $"{Fish[i].Odds} {Fish[i].Name} {Fish[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Quest{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};任务{0}", Environment.NewLine);
             for (int i = 0; i < Quest.Count; i++)
                 textBoxDropList.Text += $"{Quest[i].Odds} {Quest[i].Name} {Quest[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Awakening{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};觉醒{0}", Environment.NewLine);
             for (int i = 0; i < Awakening.Count; i++)
                 textBoxDropList.Text +=
                     $"{Awakening[i].Odds} {Awakening[i].Name} {Awakening[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Pets{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};宠物{0}", Environment.NewLine);
             for (int i = 0; i < Pets.Count; i++)
                 textBoxDropList.Text += $"{Pets[i].Odds} {Pets[i].Name} {Pets[i].Quest}{Environment.NewLine}";
 
-            textBoxDropList.Text += string.Format("{0};Transform{0}", Environment.NewLine);
+            textBoxDropList.Text += string.Format("{0};变形{0}", Environment.NewLine);
             for (int i = 0; i < Transform.Count; i++)
                 textBoxDropList.Text +=
                     $"{Transform[i].Odds} {Transform[i].Name} {Transform[i].Quest}{Environment.NewLine}";
@@ -335,7 +335,7 @@ namespace Server.MirForms.DropBuilder
             SaveDropFile();
         }
 
-        // Item tab change, draw appropriate items
+        // 物品标签页变更，绘制相应物品
         private void tabControlSeperateItems_SelectedIndexChanged(object sender, EventArgs e)
         {
             TabControl Tab = (TabControl)sender;
@@ -358,7 +358,7 @@ namespace Server.MirForms.DropBuilder
                     }
                     catch (Exception)
                     {
-                        MessageBox.Show("Unreadable level filters.");
+                        MessageBox.Show("无法读取等级筛选条件。");
                         break;
                     }
                 }
@@ -480,13 +480,13 @@ namespace Server.MirForms.DropBuilder
             }
         }
         
-        // Update the results to show them filtered
+        // 更新结果以显示筛选后的内容
         private void FilterValueChange(object sender, EventArgs e)
         {
             tabControlSeperateItems_SelectedIndexChanged(tabControlSeperateItems, null);
         }
 
-        // Add the item to the drop list
+        // 将物品添加到掉落列表
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             int dropChance;
@@ -656,11 +656,11 @@ namespace Server.MirForms.DropBuilder
             }
             catch
             {
-                //No item selected when trying to add an item to the drop
+                //尝试添加物品到掉落列表时未选择物品
             }
         }
 
-        // Choose another monster.
+        // 选择另一个怪物。
         private void listBoxMonsters_SelectedItemChanged(object sender, EventArgs e)
         {
             // Empty List<DropItem>'s
@@ -675,7 +675,7 @@ namespace Server.MirForms.DropBuilder
             checkBoxCap.Checked = false;
 
             labelMobLevel.Text =
-                $"Currently Editing: {((MonsterDropInfo)listBoxMonsters.SelectedItem).Name} - Level: {Envir.MonsterInfoList[listBoxMonsters.SelectedIndices[0]].Level}";
+                $"当前编辑: {((MonsterDropInfo)listBoxMonsters.SelectedItem).Name} - 等级: {Envir.MonsterInfoList[listBoxMonsters.SelectedIndices[0]].Level}";
         }
 
         public string GetPathOfSelectedItem()
@@ -699,7 +699,7 @@ namespace Server.MirForms.DropBuilder
 
         }
 
-        // Load the monster.txt drop file.
+        // 加载怪物.txt掉落文件。
         private void LoadDropFile(bool edit)
         {
             var lines = (edit == false) ? File.ReadAllLines(GetPathOfSelectedItem()) : textBoxDropList.Lines;
@@ -725,43 +725,43 @@ namespace Server.MirForms.DropBuilder
 
             string[] Headers = new string[37]
             {
-            ";Weapons",
-            ";Armours",
-            ";Helmets",
-            ";Necklaces",
-            ";Bracelets",
-            ";Rings",
-            ";Amulets",
-            ";Belts",
-            ";Boots",
-            ";Stones",
-            ";Torches",
-            ";Potions",
-            ";Ores",
-            ";Meat",
-            ";Crafting Materials",
-            ";Scrolls",
-            ";Gems",
-            ";Mount",
-            ";Books",
-            ";Nothing",
-            ";Script",
-            ";Reins",
-            ";Bells",
-            ";Saddle",
-            ";Ribbon",
-            ";Mask",
-            ";Food",
-            ";Hook",
-            ";Float",
-            ";Bait",
-            ";Finder",
-            ";Reel",
-            ";Fish",
-            ";Quest",
-            ";Awakening",
-            ";Pets",
-            ";Transform"
+            ";武器",
+            ";盔甲",
+            ";头盔",
+            ";项链",
+            ";手镯",
+            ";戒指",
+            ";护身符",
+            ";腰带",
+            ";靴子",
+            ";石头",
+            ";火把",
+            ";药水",
+            ";矿石",
+            ";肉类",
+            ";制作材料",
+            ";卷轴",
+            ";宝石",
+            ";坐骑",
+            ";书籍",
+            ";无掉落",
+            ";脚本",
+            ";缰绳",
+            ";铃铛",
+            ";马鞍",
+            ";丝带",
+            ";面具",
+            ";食物",
+            ";鱼钩",
+            ";浮标",
+            ";鱼饵",
+            ";探测器",
+            ";鱼线轮",
+            ";鱼类",
+            ";任务",
+            ";觉醒",
+            ";宠物",
+            ";变形"
             };
 
             for (int i = 0; i < Headers.Length; i++)
@@ -907,7 +907,7 @@ namespace Server.MirForms.DropBuilder
             }
         }
 
-        // Save the monster.txt drop file
+        // 保存怪物.txt掉落文件
         private void SaveDropFile()
         {
             var dropFile = GetPathOfSelectedItem();
@@ -924,7 +924,7 @@ namespace Server.MirForms.DropBuilder
             }
         }
 
-        //Edit gold amount/odds
+        //编辑金币数量/几率
         private void GoldDropChange(object sender, EventArgs e)
         {
             if (textBoxGoldOdds.Text != GoldOdds || textBoxGoldAmount.Text != Gold)
@@ -933,14 +933,14 @@ namespace Server.MirForms.DropBuilder
                 buttonUpdateGold.Enabled = false;
         }
 
-        //Switch to Edit mode
+        //切换到编辑模式
         private void buttonEdit_Click(object sender, EventArgs e)
         {
             if (buttonEdit.Text == "Accept")
             {
                 textBoxDropList.ReadOnly = true;
                 textBoxDropList.BackColor = System.Drawing.Color.Cornsilk;
-                buttonEdit.Text = "Edit Drop File";
+                buttonEdit.Text = "编辑掉落文件";
                 //buttonEdit.Image = Properties.Resources.edit;
 
                 // Empty List<DropItem>'s
@@ -960,7 +960,7 @@ namespace Server.MirForms.DropBuilder
             {
                 textBoxDropList.ReadOnly = false;
                 textBoxDropList.BackColor = System.Drawing.Color.Honeydew;
-                buttonEdit.Text = "Accept";
+                buttonEdit.Text = "确认";
                 //buttonEdit.Image = Properties.Resources.accept;
 
                 buttonAdd.Enabled = false;
@@ -971,7 +971,7 @@ namespace Server.MirForms.DropBuilder
             }
         }
 
-        //Cap item range to monsters level
+        //将物品范围限制为怪物等级
         private void checkBoxCap_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxCap.Checked == true)
@@ -1015,7 +1015,7 @@ namespace Server.MirForms.DropBuilder
         }
     }
 
-    // Item setup
+    // 物品设置
     public class DropItem
     {
         public string Name, Odds, Quest;
