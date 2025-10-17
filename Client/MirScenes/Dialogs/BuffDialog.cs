@@ -289,57 +289,57 @@ namespace Client.MirScenes.Dialogs
                     switch (buff.Values[0])
                     {
                         case 0:
-                            text += "Agressive (Full damage)\nCan't shoot over walls.\n";
+                            text += "“攻击性（全额伤害）\n无法隔墙射击”.\n";
                             break;
                         case 1:
-                            text += "Trick shot (Minimal damage)\nCan shoot over walls.\n";
+                            text += "特技射击（轻微伤害）\r\n可隔墙射击.\n";
                             break;
                         case 2:
-                            text += "Group Mode (Medium damage)\nDon't steal agro.\n";
+                            text += "团队模式（中等伤害）\r\n不要抢仇恨o.\n";
                             break;
                     }
                     break;
                 case BuffType.Hiding:
                 case BuffType.ClearRing:
-                    text += "Invisible to many monsters.\n";
+                    text += "对许多怪物来说是看不见的.\n";
                     break;
                 case BuffType.MoonLight:
-                    text += "Invisible to players and many\nmonsters when at a distance.\n";
+                    text += "在远处时，玩家和许多怪物都看不见（它/他/她）.\n";
                     break;
                 case BuffType.EnergyShield:
                     overridestats = true;
-                    text += string.Format("{0}% chance to gain {1} HP when attacked.\n", buff.Stats[Stat.EnergyShieldPercent], buff.Stats[Stat.EnergyShieldHPGain]);
+                    text += string.Format("受到攻击时有{0}%的几率获得{1}点生命值.\n", buff.Stats[Stat.EnergyShieldPercent], buff.Stats[Stat.EnergyShieldHPGain]);
                     break;
                 case BuffType.DarkBody:
-                    text += "Invisible to many monsters and able to move.\n";
+                    text += "对许多怪物来说是隐形的，并且能够移动.\n";
                     break;
                 case BuffType.VampireShot:
-                    text += "Gives you a vampiric ability\nthat can be released with\ncertain skills.\n";
+                    text += "赋予你一项吸血鬼能力，该能力可通过特定技能释放.\n";
                     break;
                 case BuffType.PoisonShot:
-                    text += "Gives you a poison ability\nthat can be released with\ncertain skills.\n";
+                    text += "赋予你一种毒素能力，该能力可通过特定技能释放.\n";
                     break;
                 case BuffType.Concentration:
-                    text += "Increases chance on element extraction.\n";
+                    text += "提高元素提取的几率.\n";
                     break;
                 case BuffType.MagicBooster:
                     overridestats = true;
-                    text += string.Format("Increases MC by: {0}-{1}.\nIncreases consumption by {2}%.\n", buff.Stats[Stat.MinMC], buff.Stats[Stat.MaxMC], buff.Stats[Stat.ManaPenaltyPercent]);
+                    text += string.Format("将魔御加：{0}-{1}。\n将消耗量增加{2}%.\n", buff.Stats[Stat.MinMC], buff.Stats[Stat.MaxMC], buff.Stats[Stat.ManaPenaltyPercent]);
                     break;
                 case BuffType.Transform:
-                    text += "Disguises your appearance.\n";
+                    text += "改变你的外貌.\n";
                     break;
                 case BuffType.Mentee:
-                    text += "Learn skill points twice as quick.\n";
+                    text += "学习技能点的速度快一倍.\n";
                     break;
                 case BuffType.Guild:
                     text += GameScene.Scene.GuildDialog.ActiveStats;
                     break;
                 case BuffType.Blindness:
-                    text += "Reduces visibility\n";
+                    text += "降低能见度\n";
                     break;
                 case BuffType.Newbie:
-                    text += "A boost provided to members of your guild.\n";
+                    text += "为你的公会成员提供的一种增益.\n";
                     break;
             }
 
@@ -661,51 +661,51 @@ namespace Client.MirScenes.Dialogs
                         var tick = buff.TickSpeed / 1000;
                         var tickName = tick > 1 ? "seconds" : "second";
 
-                        text += $"Reduces armour rate by 10% every {tick} {tickName}.\n";
+                        text += $"每降低10%的装甲率 {tick} {tickName}.\n";
                     }
                     break;
                 case PoisonType.Slow:
-                    text += "Reduces movement speed.\n";
+                    text += "降低移动速度.\n";
                     break;
                 case PoisonType.Frozen:
-                    text += "Prevents casting, movin\nand attacking.\n";
+                    text += "阻止施法、移动和攻击.\n";
                     break;
                 case PoisonType.Stun:
                     {
                         var tick = buff.TickSpeed / 1000;
                         var tickName = tick > 1 ? "seconds" : "second";
 
-                        text += $"Increases damage received by 20% every {tick} {tickName}.\n";
+                        text += $"每（次）受到的伤害增加20% {tick} {tickName}.\n";
                     }
                     break;
                 case PoisonType.Paralysis:
-                    text += "Prevents moving and attacking.\n";
+                    text += "阻止移动和攻击.\n";
                     break;
                 case PoisonType.DelayedExplosion:
-                    text += "Ticking time bomb.\n";
+                    text += "定时炸弹.\n";
                     break;
                 case PoisonType.Bleeding:
                     {
                         var tick = buff.TickSpeed / 1000;
                         var tickName = tick > 1 ? "seconds" : "second";
 
-                        text += $"Recieve {buff.Value} damage every {tick} {tickName}.\n";
+                        text += $"接收 {buff.Value} 损坏每一个 {tick} {tickName}.\n";
                     }
                     break;
                 case PoisonType.LRParalysis:
-                    text += "Prevents moving and attacking.\nCancels when attacked\n";
+                    text += "阻止移动和攻击。\r\n被攻击时取消效果\n";
                     break;
                 case PoisonType.Blindness:
-                    text += "Causes temporary blindness.\n";
+                    text += "导致暂时性失明.\n";
                     break;
                 case PoisonType.Dazed:
-                    text += "Prevents attacking.\n";
+                    text += "防止攻击.\n";
                     break;
             }
 
             text += string.Format(GameLanguage.Expire, Functions.PrintTimeSpanFromSeconds(Math.Round((buff.ExpireTime - CMain.Time) / 1000D)));
 
-            if (!string.IsNullOrEmpty(buff.Caster)) text += string.Format("\nCaster: {0}", buff.Caster);
+            if (!string.IsNullOrEmpty(buff.Caster)) text += string.Format("\n释放者: {0}", buff.Caster);
 
             return text;
         }
@@ -889,7 +889,7 @@ namespace Client.MirScenes.Dialogs
 
         private string CombinedBuffText()
         {
-            string text = "Active Poisons\n";
+            string text = "活性毒物\n";
 
             return text;
         }
