@@ -66,7 +66,7 @@ namespace Client
 
 
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.Selectable, true);
-            FormBorderStyle = Settings.FullScreen || Settings.Borderless ? FormBorderStyle.None : FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.Sizable; // 默认使用可调整大小的标准窗体样式
 
             Graphics = CreateGraphics();
             Graphics.SmoothingMode = SmoothingMode.AntiAlias;
@@ -82,6 +82,13 @@ namespace Client
             this.Text = GameLanguage.GameName;
             try
             {
+                // 重置全屏设置为false，确保默认以标准窗口启动
+                if (Settings.FullScreen || Settings.Borderless)
+                {
+                    Settings.FullScreen = false;
+                    Settings.Borderless = false;
+                }
+                
                 ClientSize = new Size(Settings.ScreenWidth, Settings.ScreenHeight);
 
                 LoadMouseCursors();
@@ -571,7 +578,7 @@ namespace Client
         {
             Settings.FullScreen = !Settings.FullScreen;
 
-            Program.Form.FormBorderStyle = Settings.FullScreen || Settings.Borderless ? FormBorderStyle.None : FormBorderStyle.FixedDialog;
+            Program.Form.FormBorderStyle = Settings.FullScreen ? FormBorderStyle.None : FormBorderStyle.Sizable; // 全屏时无边框，非全屏时使用标准可调整大小的窗体样式
 
             Program.Form.TopMost = Settings.FullScreen;
 
